@@ -1,5 +1,5 @@
 fuzzer,domain,dns_a,dns_aaaa,dns_mx,dns_ns
-*original,ticket-resale.paris2024.org,23.220.96.16,2600:1407:a800::1738:a812,!ServFail,a1-222.akam.net
+*original,ticket-resale.paris2024.org,23.64.112.84,2600:1407:a800::1738:a812,!ServFail,a1-222.akam.net
 addition,ticket-resale.paris20240.org,,,,
 addition,ticket-resale.paris20241.org,,,,
 addition,ticket-resale.paris20242.org,,,,
@@ -1785,17 +1785,17 @@ subdomain,ticket-resale.p.aris2024.org,,,,
 subdomain,ticket-resale.pa.ris2024.org,,,,
 subdomain,ticket-resale.par.is2024.org,,,,
 subdomain,ticket-resale.pari.s2024.org,,,,
+subdomain,ticket-resale.paris.2024.org,104.247.81.50,,,ns1.parkingcrew.net
 subdomain,ticket-resale.paris2.024.org,,,,
 subdomain,ticket-resale.paris20.24.org,173.255.194.134,,,ns1.mytrafficmanagement.com
-subdomain,ticket-resale.paris.2024.org,,,,ns1.parkingcrew.net
 transposition,ticket-resale.apris2024.org,127.0.0.1,,,
 transposition,ticket-resale.pari2s024.org,127.0.0.1,,,
 transposition,ticket-resale.paris0224.org,127.0.0.1,,,
-transposition,ticket-resale.prais2024.org,127.0.0.1,,,
-transposition,ticket-resale.pairs2024.org,199.59.243.226,,,
 transposition,ticket-resale.paris2042.org,,,,
 transposition,ticket-resale.paris2204.org,127.0.0.1,,,
 transposition,ticket-resale.parsi2024.org,127.0.0.1,,,
+transposition,ticket-resale.prais2024.org,127.0.0.1,,,
+transposition,ticket-resale.pairs2024.org,199.59.243.226,,,
 various,ticket-resale-paris2024.org,,,,
 various,ticket-resale.paris2024-org.com,,,,
 various,ticket-resale.paris2024org.org,,,,
