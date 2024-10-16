@@ -1,5 +1,5 @@
 fuzzer,domain,dns_a,dns_aaaa,dns_mx,dns_ns
-*original,tickets.paris2024.org,23.62.226.168,2600:1405:8400:7::17d1:54b0,mxa-0072c901.gslb.pphosted.com,a1-222.akam.net
+*original,tickets.paris2024.org,23.205.106.76,2600:141b:f000:d::684d:b287,mxa-0072c901.gslb.pphosted.com,a1-222.akam.net
 addition,tickets.paris20240.org,,,,
 addition,tickets.paris20241.org,,,,
 addition,tickets.paris20242.org,,,,
@@ -1780,7 +1780,7 @@ replacement,tickets.pzris2024.org,127.0.0.1,,,
 replacement,tickets.paris2023.org,170.39.226.155,!ServFail,mail.parktons.com,ns1.radinko.com
 replacement,tickets.pariz2024.org,170.39.226.155,!ServFail,mail.parktons.com,ns1.radinko.com
 replacement,tickets.paros2024.org,170.39.226.155,!ServFail,mail.parktons.com,ns1.radinko.com
-replacement,tickets.parus2024.org,170.39.226.155,!ServFail,mail.parktons.com,ns1.radinko.com
+replacement,tickets.parus2024.org,170.39.226.155,,mail.parktons.com,ns1.radinko.com
 subdomain,tickets.p.aris2024.org,,,,
 subdomain,tickets.pa.ris2024.org,,,,
 subdomain,tickets.par.is2024.org,,,,
