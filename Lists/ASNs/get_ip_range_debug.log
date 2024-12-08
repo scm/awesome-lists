@@ -2758,3 +2758,123 @@
 2024-12-01 00:56:12,198 - DEBUG - https://bgp.he.net:443 "GET /AS44066 HTTP/11" 200 221047
 2024-12-01 00:56:12,599 - INFO - IP ranges retrieved for ASN: 44066
 2024-12-01 00:56:12,600 - INFO - Saving output for query: AS44066 in format: csv
+2024-12-08 00:52:01,263 - INFO - Processing query: AS133199
+2024-12-08 00:52:01,263 - INFO - Retrieving IP ranges for ASN: 133199
+2024-12-08 00:52:01,265 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:01,285 - DEBUG - https://bgp.he.net:443 "GET /AS133199 HTTP/11" 200 180414
+2024-12-08 00:52:01,418 - INFO - IP ranges retrieved for ASN: 133199
+2024-12-08 00:52:01,418 - INFO - Saving output for query: AS133199 in format: csv
+2024-12-08 00:52:01,420 - INFO - Processing query: AS22612
+2024-12-08 00:52:01,420 - INFO - Retrieving IP ranges for ASN: 22612
+2024-12-08 00:52:01,421 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:01,437 - DEBUG - https://bgp.he.net:443 "GET /AS22612 HTTP/11" 200 217617
+2024-12-08 00:52:01,576 - INFO - IP ranges retrieved for ASN: 22612
+2024-12-08 00:52:01,577 - INFO - Saving output for query: AS22612 in format: csv
+2024-12-08 00:52:01,578 - INFO - Processing query: AS13335
+2024-12-08 00:52:01,578 - INFO - Retrieving IP ranges for ASN: 13335
+2024-12-08 00:52:01,579 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:01,613 - DEBUG - https://bgp.he.net:443 "GET /AS13335 HTTP/11" 200 3123408
+2024-12-08 00:52:04,233 - INFO - IP ranges retrieved for ASN: 13335
+2024-12-08 00:52:04,234 - INFO - Saving output for query: AS13335 in format: csv
+2024-12-08 00:52:04,238 - INFO - Processing query: AS59371
+2024-12-08 00:52:04,238 - INFO - Retrieving IP ranges for ASN: 59371
+2024-12-08 00:52:04,240 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:04,254 - DEBUG - https://bgp.he.net:443 "GET /AS59371 HTTP/11" 200 132475
+2024-12-08 00:52:04,348 - INFO - IP ranges retrieved for ASN: 59371
+2024-12-08 00:52:04,349 - INFO - Saving output for query: AS59371 in format: csv
+2024-12-08 00:52:04,350 - INFO - Processing query: AS47583
+2024-12-08 00:52:04,350 - INFO - Retrieving IP ranges for ASN: 47583
+2024-12-08 00:52:04,351 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:04,367 - DEBUG - https://bgp.he.net:443 "GET /AS47583 HTTP/11" 200 485230
+2024-12-08 00:52:04,916 - INFO - IP ranges retrieved for ASN: 47583
+2024-12-08 00:52:04,917 - INFO - Saving output for query: AS47583 in format: csv
+2024-12-08 00:52:04,918 - INFO - Processing query: AS54113
+2024-12-08 00:52:04,918 - INFO - Retrieving IP ranges for ASN: 54113
+2024-12-08 00:52:04,920 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:04,941 - DEBUG - https://bgp.he.net:443 "GET /AS54113 HTTP/11" 200 1156597
+2024-12-08 00:52:05,875 - INFO - IP ranges retrieved for ASN: 54113
+2024-12-08 00:52:05,876 - INFO - Saving output for query: AS54113 in format: csv
+2024-12-08 00:52:05,878 - INFO - Processing query: AS197695
+2024-12-08 00:52:05,878 - INFO - Retrieving IP ranges for ASN: 197695
+2024-12-08 00:52:05,879 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:05,895 - DEBUG - https://bgp.he.net:443 "GET /AS197695 HTTP/11" 200 309717
+2024-12-08 00:52:06,099 - INFO - IP ranges retrieved for ASN: 197695
+2024-12-08 00:52:06,100 - INFO - Saving output for query: AS197695 in format: csv
+2024-12-08 00:52:06,101 - INFO - Processing query: AS49981
+2024-12-08 00:52:06,101 - INFO - Retrieving IP ranges for ASN: 49981
+2024-12-08 00:52:06,102 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:06,118 - DEBUG - https://bgp.he.net:443 "GET /AS49981 HTTP/11" 200 253020
+2024-12-08 00:52:06,373 - INFO - IP ranges retrieved for ASN: 49981
+2024-12-08 00:52:06,373 - INFO - Saving output for query: AS49981 in format: csv
+2024-12-08 00:52:06,374 - INFO - Processing query: AS398478
+2024-12-08 00:52:06,374 - INFO - Retrieving IP ranges for ASN: 398478
+2024-12-08 00:52:06,375 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:06,390 - DEBUG - https://bgp.he.net:443 "GET /AS398478 HTTP/11" 200 54312
+2024-12-08 00:52:06,418 - INFO - IP ranges retrieved for ASN: 398478
+2024-12-08 00:52:06,418 - INFO - Saving output for query: AS398478 in format: csv
+2024-12-08 00:52:06,419 - INFO - Processing query: AS19871
+2024-12-08 00:52:06,419 - INFO - Retrieving IP ranges for ASN: 19871
+2024-12-08 00:52:06,420 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:06,436 - DEBUG - https://bgp.he.net:443 "GET /AS19871 HTTP/11" 200 196467
+2024-12-08 00:52:06,557 - INFO - IP ranges retrieved for ASN: 19871
+2024-12-08 00:52:06,557 - INFO - Saving output for query: AS19871 in format: csv
+2024-12-08 00:52:06,558 - INFO - Processing query: AS54467
+2024-12-08 00:52:06,558 - INFO - Retrieving IP ranges for ASN: 54467
+2024-12-08 00:52:06,559 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:06,573 - DEBUG - https://bgp.he.net:443 "GET /AS54467 HTTP/11" 200 35780
+2024-12-08 00:52:06,587 - INFO - IP ranges retrieved for ASN: 54467
+2024-12-08 00:52:06,587 - INFO - Saving output for query: AS54467 in format: csv
+2024-12-08 00:52:06,587 - INFO - Processing query: AS209242
+2024-12-08 00:52:06,587 - INFO - Retrieving IP ranges for ASN: 209242
+2024-12-08 00:52:06,589 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:06,605 - DEBUG - https://bgp.he.net:443 "GET /AS209242 HTTP/11" 200 245486
+2024-12-08 00:52:06,797 - INFO - IP ranges retrieved for ASN: 209242
+2024-12-08 00:52:06,797 - INFO - Saving output for query: AS209242 in format: csv
+2024-12-08 00:52:06,798 - INFO - Processing query: AS138915
+2024-12-08 00:52:06,798 - INFO - Retrieving IP ranges for ASN: 138915
+2024-12-08 00:52:06,799 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:06,818 - DEBUG - https://bgp.he.net:443 "GET /AS138915 HTTP/11" 200 577312
+2024-12-08 00:52:07,270 - INFO - IP ranges retrieved for ASN: 138915
+2024-12-08 00:52:07,270 - INFO - Saving output for query: AS138915 in format: csv
+2024-12-08 00:52:07,272 - INFO - Processing query: AS33387
+2024-12-08 00:52:07,272 - INFO - Retrieving IP ranges for ASN: 33387
+2024-12-08 00:52:07,273 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:07,289 - DEBUG - https://bgp.he.net:443 "GET /AS33387 HTTP/11" 200 90731
+2024-12-08 00:52:07,368 - INFO - IP ranges retrieved for ASN: 33387
+2024-12-08 00:52:07,368 - INFO - Saving output for query: AS33387 in format: csv
+2024-12-08 00:52:07,369 - INFO - Processing query: AS140227
+2024-12-08 00:52:07,369 - INFO - Retrieving IP ranges for ASN: 140227
+2024-12-08 00:52:07,370 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:07,387 - DEBUG - https://bgp.he.net:443 "GET /AS140227 HTTP/11" 200 198179
+2024-12-08 00:52:07,511 - INFO - IP ranges retrieved for ASN: 140227
+2024-12-08 00:52:07,511 - INFO - Saving output for query: AS140227 in format: csv
+2024-12-08 00:52:07,512 - INFO - Processing query: AS46606
+2024-12-08 00:52:07,512 - INFO - Retrieving IP ranges for ASN: 46606
+2024-12-08 00:52:07,514 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:07,529 - DEBUG - https://bgp.he.net:443 "GET /AS46606 HTTP/11" 200 153334
+2024-12-08 00:52:07,633 - INFO - IP ranges retrieved for ASN: 46606
+2024-12-08 00:52:07,633 - INFO - Saving output for query: AS46606 in format: csv
+2024-12-08 00:52:07,634 - INFO - Processing query: AS397423
+2024-12-08 00:52:07,634 - INFO - Retrieving IP ranges for ASN: 397423
+2024-12-08 00:52:07,635 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:07,651 - DEBUG - https://bgp.he.net:443 "GET /AS397423 HTTP/11" 200 221887
+2024-12-08 00:52:07,802 - INFO - IP ranges retrieved for ASN: 397423
+2024-12-08 00:52:07,802 - INFO - Saving output for query: AS397423 in format: csv
+2024-12-08 00:52:07,803 - INFO - Processing query: AS198610
+2024-12-08 00:52:07,803 - INFO - Retrieving IP ranges for ASN: 198610
+2024-12-08 00:52:07,804 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:07,821 - DEBUG - https://bgp.he.net:443 "GET /AS198610 HTTP/11" 200 205385
+2024-12-08 00:52:07,996 - INFO - IP ranges retrieved for ASN: 198610
+2024-12-08 00:52:07,996 - INFO - Saving output for query: AS198610 in format: csv
+2024-12-08 00:52:07,997 - INFO - Processing query: AS132203
+2024-12-08 00:52:07,998 - INFO - Retrieving IP ranges for ASN: 132203
+2024-12-08 00:52:07,999 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:08,017 - DEBUG - https://bgp.he.net:443 "GET /AS132203 HTTP/11" 200 727406
+2024-12-08 00:52:08,619 - INFO - IP ranges retrieved for ASN: 132203
+2024-12-08 00:52:08,619 - INFO - Saving output for query: AS132203 in format: csv
+2024-12-08 00:52:08,621 - INFO - Processing query: AS44066
+2024-12-08 00:52:08,621 - INFO - Retrieving IP ranges for ASN: 44066
+2024-12-08 00:52:08,622 - DEBUG - Starting new HTTPS connection (1): bgp.he.net:443
+2024-12-08 00:52:08,638 - DEBUG - https://bgp.he.net:443 "GET /AS44066 HTTP/11" 200 221470
+2024-12-08 00:52:08,796 - INFO - IP ranges retrieved for ASN: 44066
+2024-12-08 00:52:08,796 - INFO - Saving output for query: AS44066 in format: csv
