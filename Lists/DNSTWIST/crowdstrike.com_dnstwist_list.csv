@@ -90,9 +90,10 @@ bitsquatting,czowdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.clou
 bitsquatting,growdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 bitsquatting,krowdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 bitsquatting,srowdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
-homoglyph,cr0vvdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,evangeline.ns.cloudflare.com
 homoglyph,cr0wbstrike.com,,,,
 homoglyph,cr0wclstrike.com,,,,
+homoglyph,crowdstriice.com,199.59.243.228,,,ns1.bodis.com
+homoglyph,cr0vvdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,evangeline.ns.cloudflare.com
 homoglyph,cr0wdlstrike.com,,,,
 homoglyph,cr0wdstr1ke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 homoglyph,cr0wdstrikc.com,,,,
@@ -133,10 +134,9 @@ homoglyph,crowdlstrike.com,,,,
 homoglyph,crowdlstrilce.com,,,,
 homoglyph,crowdlstrlke.com,,,,
 homoglyph,crowdstr1kc.com,,,,
+homoglyph,crowdstr1ke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 homoglyph,crowdstr1lce.com,,,,
 homoglyph,crowdstri1ce.com,,,,
-homoglyph,crowdstriice.com,199.59.243.228,,,ns1.bodis.com
-homoglyph,crowdstr1ke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 homoglyph,crowdstrikc.com,,,,
 homoglyph,crowdstrilcc.com,,,,
 homoglyph,crowdstrilce.com,,,,
@@ -7788,9 +7788,9 @@ replacement,xrowdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloud
 subdomain,c.rowdstrike.com,,,,
 subdomain,cr.owdstrike.com,,,,
 subdomain,cro.wdstrike.com,,,,
-subdomain,crowd.strike.com,,,,
 subdomain,crowdst.rike.com,!ServFail,!ServFail,,!ServFail
-subdomain,crow.dstrike.com,3.130.204.160,,,nsg1.namebrightdns.com
+subdomain,crow.dstrike.com,3.94.41.167,,,nsg1.namebrightdns.com
+subdomain,crowd.strike.com,,,,
 subdomain,crowds.trike.com,64.190.63.222,,localhost,ns1.sedoparking.com
 subdomain,crowdstr.ike.com,,,,
 subdomain,crowdstri.ke.com,,,,
