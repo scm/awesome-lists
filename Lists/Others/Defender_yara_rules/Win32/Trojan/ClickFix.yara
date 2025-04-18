@@ -1020,6 +1020,8 @@ rule Trojan_Win32_ClickFix_DV_2147935276_0
         $x_100_31 = {1d 04 75 00 6d 00 30 04 6e 00}  //weight: 100, accuracy: High
         $x_100_32 = {21 04 10 04 20 04 22 04 43 00 97 03 41 00}  //weight: 100, accuracy: High
         $x_100_33 = {21 04 10 04 50 00 54 00 43 00 97 03 41 00}  //weight: 100, accuracy: High
+        $x_100_34 = {21 04 10 04 20 04 22 04 43 00 48 00 41 00}  //weight: 100, accuracy: High
+        $x_100_35 = {56 00 35 04 72 00 69 00 66 00}  //weight: 100, accuracy: High
     condition:
         (filesize < 20MB) and
         (
@@ -1398,6 +1400,8 @@ rule Trojan_Win32_ClickFix_DZ_2147936523_0
         $x_100_32 = {1d 04 75 00 6d 00 30 04 6e 00}  //weight: 100, accuracy: High
         $x_100_33 = {21 04 10 04 20 04 22 04 43 00 97 03 41 00}  //weight: 100, accuracy: High
         $x_100_34 = {21 04 10 04 50 00 54 00 43 00 97 03 41 00}  //weight: 100, accuracy: High
+        $x_100_35 = {21 04 10 04 20 04 22 04 43 00 48 00 41 00}  //weight: 100, accuracy: High
+        $x_100_36 = {56 00 35 04 72 00 69 00 66 00}  //weight: 100, accuracy: High
     condition:
         (filesize < 20MB) and
         (
@@ -2938,5 +2942,181 @@ rule Trojan_Win32_ClickFix_HD_2147939326_0
         (filesize < 20MB) and
         (not (any of ($n*))) and
         (all of ($x*))
+}
+
+rule Trojan_Win32_ClickFix_GVC_2147939392_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/ClickFix.GVC!MTB"
+        threat_id = "2147939392"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "ClickFix"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_CMDHSTR_EXT"
+        threshold = "14"
+        strings_accuracy = "High"
+    strings:
+        $x_2_1 = "powershell" wide //weight: 2
+        $x_2_2 = "start-process" wide //weight: 2
+        $x_2_3 = "runas" wide //weight: 2
+        $x_2_4 = "http" wide //weight: 2
+        $x_2_5 = "download" wide //weight: 2
+        $x_1_6 = "new-object" wide //weight: 1
+        $x_1_7 = "net.webclient" wide //weight: 1
+        $x_1_8 = ".invoke" wide //weight: 1
+        $x_1_9 = "scriptblock" wide //weight: 1
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_ClickFix_STV_2147939395_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/ClickFix.STV"
+        threat_id = "2147939395"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "ClickFix"
+        severity = "Critical"
+        signature_type = "SIGNATURE_TYPE_CMDHSTR_EXT"
+        threshold = "103"
+        strings_accuracy = "High"
+    strings:
+        $x_100_1 = "not a robot" wide //weight: 100
+        $x_1_2 = "curl" wide //weight: 1
+        $x_1_3 = "verif" wide //weight: 1
+        $x_1_4 = "confirm" wide //weight: 1
+        $x_1_5 = "press" wide //weight: 1
+        $x_1_6 = "captcha" wide //weight: 1
+        $x_1_7 = "cloudflare" wide //weight: 1
+    condition:
+        (filesize < 20MB) and
+        (
+            ((1 of ($x_100_*) and 3 of ($x_1_*))) or
+            (all of ($x*))
+        )
+}
+
+rule Trojan_Win32_ClickFix_DAZ_2147939396_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/ClickFix.DAZ!MTB"
+        threat_id = "2147939396"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "ClickFix"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_CMDHSTR_EXT"
+        threshold = "171"
+        strings_accuracy = "High"
+    strings:
+        $x_100_1 = "mshta" wide //weight: 100
+        $x_50_2 = "gclid=" wide //weight: 50
+        $x_20_3 = ".wav?" wide //weight: 20
+        $x_20_4 = ".opus?" wide //weight: 20
+        $x_1_5 = ".shop/" wide //weight: 1
+        $x_1_6 = ".online/" wide //weight: 1
+    condition:
+        (filesize < 20MB) and
+        (
+            ((1 of ($x_100_*) and 1 of ($x_50_*) and 1 of ($x_20_*) and 1 of ($x_1_*))) or
+            ((1 of ($x_100_*) and 1 of ($x_50_*) and 2 of ($x_20_*))) or
+            (all of ($x*))
+        )
+}
+
+rule Trojan_Win32_ClickFix_SEC_2147939401_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/ClickFix.SEC"
+        threat_id = "2147939401"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "ClickFix"
+        severity = "Critical"
+        signature_type = "SIGNATURE_TYPE_CMDHSTR_EXT"
+        threshold = "10"
+        strings_accuracy = "Low"
+    strings:
+        $x_10_1 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 61 00 63 00 74 00 69 00 76 00 69 00 74 00 79 00 64 00 6d 00 79 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_2 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 62 00 65 00 74 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_3 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 62 00 69 00 7a 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_4 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 62 00 6c 00 6f 00 67 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_5 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 62 00 6f 00 6e 00 64 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_6 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 62 00 75 00 7a 00 7a 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_7 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 63 00 61 00 6d 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_8 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 63 00 64 00 61 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_9 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 63 00 6c 00 69 00 63 00 6b 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_10 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 63 00 6c 00 75 00 62 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_11 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 63 00 6f 00 75 00 6e 00 74 00 72 00 79 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_12 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 63 00 75 00 6c 00 74 00 75 00 72 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_13 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 63 00 79 00 6f 00 75 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_14 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 64 00 61 00 74 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_15 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 64 00 69 00 67 00 69 00 74 00 61 00 6c 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_16 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 64 00 6f 00 77 00 6e 00 6c 00 6f 00 61 00 64 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_17 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 65 00 6d 00 70 00 6c 00 6f 00 79 00 65 00 72 00 64 00 62 00 7a 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_18 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 65 00 70 00 73 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_19 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 66 00 6f 00 72 00 65 00 73 00 74 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_20 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 66 00 6c 00 76 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_21 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 66 00 75 00 6e 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_22 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 67 00 64 00 6e 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_23 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 68 00 61 00 69 00 72 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_24 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 68 00 65 00 6c 00 70 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_25 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 69 00 63 00 75 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_26 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 69 00 6e 00 66 00 6f 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_27 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6c 00 61 00 74 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_28 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6c 00 69 00 66 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_29 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6c 00 69 00 6e 00 6b 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_30 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6c 00 6f 00 61 00 6e 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_31 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6c 00 69 00 76 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_32 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6d 00 34 00 61 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_33 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6d 00 64 00 62 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_34 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6d 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_35 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6d 00 70 00 33 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_36 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6d 00 70 00 34 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_37 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6d 00 79 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_38 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6f 00 6e 00 6c 00 69 00 6e 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_39 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 6f 00 72 00 67 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_40 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 70 00 61 00 72 00 74 00 79 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_41 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 70 00 72 00 6f 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_42 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 70 00 77 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_43 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 72 00 61 00 63 00 69 00 6e 00 67 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_44 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 72 00 65 00 6e 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_45 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 72 00 65 00 69 00 73 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_46 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 72 00 65 00 76 00 69 00 65 00 77 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_47 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 72 00 75 00 6e 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_48 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 73 00 62 00 73 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_49 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 73 00 63 00 69 00 65 00 6e 00 63 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_50 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 73 00 68 00 6f 00 70 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_51 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 73 00 69 00 74 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_52 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 73 00 70 00 61 00 63 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_53 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 73 00 74 00 6f 00 72 00 65 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_54 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 73 00 74 00 72 00 65 00 61 00 6d 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_55 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 73 00 74 00 75 00 64 00 79 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_56 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 74 00 65 00 63 00 68 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_57 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 74 00 65 00 63 00 68 00 6e 00 6f 00 6c 00 6f 00 67 00 79 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_58 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 74 00 65 00 72 00 72 00 69 00 66 00 79 00 65 00 6e 00 79 00 62 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_59 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 74 00 6f 00 64 00 61 00 79 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_60 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 74 00 6f 00 70 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_61 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 76 00 69 00 70 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_62 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 77 00 6f 00 72 00 6b 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_63 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 77 00 6f 00 72 00 6c 00 64 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_64 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 78 00 6c 00 6c 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_65 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 78 00 79 00 7a 00 2f 00}  //weight: 10, accuracy: Low
+        $x_10_66 = {68 00 74 00 74 00 70 00 [0-48] 2e 00 79 00 6f 00 6b 00 6f 00 68 00 61 00 6d 00 61 00 2f 00}  //weight: 10, accuracy: Low
+        $n_300_67 = ".ps1" wide //weight: -300
+        $n_300_68 = ".hta" wide //weight: -300
+    condition:
+        (filesize < 20MB) and
+        (not (any of ($n*))) and
+        (1 of ($x*))
 }
 
