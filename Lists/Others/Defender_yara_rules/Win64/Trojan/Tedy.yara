@@ -1579,22 +1579,22 @@ rule Trojan_Win64_Tedy_AH_2147939502_0
         (all of ($x*))
 }
 
-rule Trojan_Win64_Tedy_AJ_2147939503_0
+rule Trojan_Win64_Tedy_WIV_2147939599_0
 {
     meta:
         author = "defender2yara"
-        detection_name = "Trojan:Win64/Tedy.AJ!MTB"
-        threat_id = "2147939503"
+        detection_name = "Trojan:Win64/Tedy.WIV!MTB"
+        threat_id = "2147939599"
         type = "Trojan"
         platform = "Win64: Windows 64-bit platform"
         family = "Tedy"
         severity = "Critical"
         info = "MTB: Microsoft Threat Behavior"
         signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
-        threshold = "1"
-        strings_accuracy = "High"
+        threshold = "5"
+        strings_accuracy = "Low"
     strings:
-        $x_1_1 = {0f b6 07 88 03 48 ff c3 48 ff c6 48 89 5d 97 48 83 fe 08 0f 8c fc fe ff ff 44 89 7d a7 4d 85 e4 0f 84 5d 01 00 00 4c 8b 64 24 48 49 f7 dc}  //weight: 1, accuracy: High
+        $x_5_1 = {45 2b c6 41 8b c0 c1 e8 18 32 c1 88 85 ?? 02 00 00 41 8b c0 c1 e8 10 32 c1 88 85 ?? 02 00 00 41 8b c0 c1 e8 08 32 c1 88 85 ?? 02 00 00 44 32 c1 44 88 85 43 02 00 00 33 c0 0f 57 c9 f3 0f 7f 8d 50 02 00 00 48 89 85 60 02 00 00 88 4c 24 50 4c 8d 44 24 50 33 d2 48 8d 8d 50 02 00 00 e8}  //weight: 5, accuracy: Low
     condition:
         (filesize < 20MB) and
         (all of ($x*))
