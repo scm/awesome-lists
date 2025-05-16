@@ -402,6 +402,27 @@ rule Trojan_Win64_Latrodectus_PH_2147921595_0
         (all of ($x*))
 }
 
+rule Trojan_Win64_Latrodectus_PH_2147921595_1
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Latrodectus.PH!MTB"
+        threat_id = "2147921595"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Latrodectus"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "1"
+        strings_accuracy = "Low"
+    strings:
+        $x_1_1 = {48 8b c1 b9 06 00 00 00 83 c1 02 48 f7 f1 48 8b c2 48 8b 4c 24 ?? 0f b6 44 01 ?? 8b 8c 24 ?? 00 00 00 33 c8 8b c1 48 63 4c 24 ?? 48 8b 54 24 ?? 88 04 0a 8b 44 24 ?? ff c0 89 44 24 ?? e9}  //weight: 1, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
 rule Trojan_Win64_Latrodectus_DE_2147922315_0
 {
     meta:
@@ -959,5 +980,26 @@ rule Trojan_Win64_Latrodectus_STZ_2147941368_0
             ((1 of ($x_10_*) and 1 of ($x_2_*) and 2 of ($x_1_*))) or
             (all of ($x*))
         )
+}
+
+rule Trojan_Win64_Latrodectus_GVA_2147941489_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Latrodectus.GVA!MTB"
+        threat_id = "2147941489"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Latrodectus"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "1"
+        strings_accuracy = "Low"
+    strings:
+        $x_1_1 = {c5 dd fd e6 c5 d5 fd ef 44 30 14 0f 66 0f 70 fe ?? 66 0f 70 fd ?? 66 0f f1 da 66 0f f1 ec}  //weight: 1, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
 }
 
