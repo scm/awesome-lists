@@ -6011,3 +6011,137 @@ rule Trojan_Win32_LummaStealer_YTK_2147941878_0
         (all of ($x*))
 }
 
+rule Trojan_Win32_LummaStealer_STG_2147941958_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/LummaStealer.STG"
+        threat_id = "2147941958"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "LummaStealer"
+        severity = "Critical"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "103"
+        strings_accuracy = "High"
+    strings:
+        $x_100_1 = {f1 d5 00 fa 4c 62 cc f4 0f 0b}  //weight: 100, accuracy: High
+        $x_2_2 = {74 24 2e 88 54 24 2f 66 c7 44 24 30 00 00 8b 54}  //weight: 2, accuracy: High
+        $x_1_3 = {3d 8b 04 24 b9 13 00 80 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90}  //weight: 1, accuracy: High
+        $x_1_4 = {d1 a0 75 ad 22 ab 52 37 67 50 13 8c e7 61 5a c5}  //weight: 1, accuracy: High
+        $x_1_5 = {ce 88 84 0c 7a 37 52 4d 41 4e 81 f9 ba c8 ad b2}  //weight: 1, accuracy: High
+        $x_1_6 = {45 00 57 69 6e 48 74 74 70 57 72 69 74 65 44 61 74 61}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (
+            ((1 of ($x_100_*) and 3 of ($x_1_*))) or
+            ((1 of ($x_100_*) and 1 of ($x_2_*) and 1 of ($x_1_*))) or
+            (all of ($x*))
+        )
+}
+
+rule Trojan_Win32_LummaStealer_ZSK_2147941968_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/LummaStealer.ZSK!MTB"
+        threat_id = "2147941968"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "LummaStealer"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR"
+        threshold = "1"
+        strings_accuracy = "High"
+    strings:
+        $x_1_1 = {56 5c 7f 62 3d fe 26 56 28 74 7b 3d 70 62 9f 33 75 e4 0f b6 4c 24 6e 80 7c 24 6f}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_LummaStealer_ZTK_2147941969_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/LummaStealer.ZTK!MTB"
+        threat_id = "2147941969"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "LummaStealer"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR"
+        threshold = "1"
+        strings_accuracy = "High"
+    strings:
+        $x_1_1 = {c7 44 24 14 10 d1 d2 d3}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_LummaStealer_ZUK_2147941970_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/LummaStealer.ZUK!MTB"
+        threat_id = "2147941970"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "LummaStealer"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR"
+        threshold = "1"
+        strings_accuracy = "High"
+    strings:
+        $x_1_1 = {1e 01 de 46 21 d6 01 d7 47 01 f6 29 f7 21 d7}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_LummaStealer_ZVK_2147941971_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/LummaStealer.ZVK!MTB"
+        threat_id = "2147941971"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "LummaStealer"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR"
+        threshold = "1"
+        strings_accuracy = "High"
+    strings:
+        $x_1_1 = {68 71 fa 41 a0 46 f0 da 7d de 6a b3 49 e1 cc}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_LummaStealer_ZWK_2147941972_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/LummaStealer.ZWK!MTB"
+        threat_id = "2147941972"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "LummaStealer"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR"
+        threshold = "1"
+        strings_accuracy = "High"
+    strings:
+        $x_1_1 = {30 7c 19 d4 af 9b 62 b1 4f db 10 a2 a8 1c 4e f7 b2 33 05 49}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
