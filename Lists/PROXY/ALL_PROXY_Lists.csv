@@ -3761,7 +3761,7 @@ dest_ip,dest_port,metadata_comment
 103.216.50.11,8080,PROXY_ALL_openproxy_list.csv
 103.216.50.117,8080,PROXY_ALL_openproxy_list.csv
 103.216.50.143,8080,PROXY_ALL_openproxy_list.csv
-103.216.50.206,8080,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
+103.216.50.206,8080,PROXY_ALL_openproxy_list.csv
 103.216.50.223,8080,PROXY_ALL_openproxy_list.csv
 103.216.50.224,8080,PROXY_ALL_openproxy_list.csv
 103.216.50.88,32650,PROXY_ALL_openproxy_list.csv
@@ -5005,7 +5005,7 @@ dest_ip,dest_port,metadata_comment
 103.87.85.198,80,PROXY_ALL_openproxy_list.csv
 103.88.169.106,33149,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_openproxylist.com_list.csv"
 103.88.169.6,3629,PROXY_ALL_openproxy_list.csv
-103.88.229.59,8080,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
+103.88.229.59,8080,PROXY_ALL_openproxy_list.csv
 103.88.234.58,3241,PROXY_ALL_openproxy_list.csv
 103.88.236.154,84,PROXY_ALL_openproxy_list.csv
 103.88.238.225,84,PROXY_ALL_openproxy_list.csv
@@ -10290,7 +10290,7 @@ dest_ip,dest_port,metadata_comment
 128.14.225.204,13676,PROXY_ALL_openproxy_list.csv
 128.14.225.204,19886,PROXY_ALL_openproxy_list.csv
 128.14.225.204,29880,PROXY_ALL_openproxy_list.csv
-128.140.113.110,4145,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
+128.140.113.110,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 128.140.113.110,8080,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv"
 128.140.113.110,5153,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 128.140.113.110,1080,PROXY_ALL_openproxy_list.csv
@@ -11379,11 +11379,11 @@ dest_ip,dest_port,metadata_comment
 139.5.19.165,8080,PROXY_ALL_openproxy_list.csv
 139.5.64.108,80,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 139.5.73.71,8080,PROXY_ALL_openproxy_list.csv
+139.59.1.14,1080,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 139.59.1.14,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 139.59.1.14,8080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 139.59.1.14,3128,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_openproxy_list.csv"
 139.59.1.14,802,PROXY_ALL_openproxy_list.csv
-139.59.1.14,1080,PROXY_ALL_sunny9577_list.csv
 139.59.125.177,22333,PROXY_ALL_openproxy_list.csv
 139.59.131.31,80,PROXY_ALL_openproxy_list.csv
 139.59.132.68,80,PROXY_ALL_openproxy_list.csv
@@ -11456,14 +11456,15 @@ dest_ip,dest_port,metadata_comment
 14.102.10.133,85,PROXY_ALL_hookzof_list.csv
 14.102.10.134,85,PROXY_ALL_hookzof_list.csv
 14.102.10.136,85,PROXY_ALL_hookzof_list.csv
-14.102.10.86,3443,PROXY_ALL_hookzof_list.csv
+14.102.10.87,3443,PROXY_ALL_hookzof_list.csv
 14.102.10.88,3443,PROXY_ALL_hookzof_list.csv
 14.102.10.89,3443,PROXY_ALL_hookzof_list.csv
+14.102.10.90,3443,PROXY_ALL_hookzof_list.csv
 14.102.10.91,3443,PROXY_ALL_hookzof_list.csv
 14.102.10.92,3443,PROXY_ALL_hookzof_list.csv
 14.102.10.95,3443,PROXY_ALL_hookzof_list.csv
 14.102.10.96,3443,PROXY_ALL_hookzof_list.csv
-14.102.10.98,3443,PROXY_ALL_hookzof_list.csv
+14.102.10.97,3443,PROXY_ALL_hookzof_list.csv
 14.102.10.99,3443,PROXY_ALL_hookzof_list.csv
 14.102.155.233,3128,PROXY_ALL_openproxy_list.csv
 14.102.51.185,8080,PROXY_ALL_openproxy_list.csv
@@ -13581,6 +13582,7 @@ dest_ip,dest_port,metadata_comment
 143.110.170.51,443,PROXY_ALL_hookzof_list.csv
 143.110.183.107,3128,PROXY_ALL_openproxy_list.csv
 143.110.190.60,1080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
+143.110.216.169,443,PROXY_ALL_hookzof_list.csv
 143.110.217.153,1080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_hideip_me_List.csv"
 143.110.225.110,3128,PROXY_ALL_openproxy_list.csv
 143.110.229.181,8888,PROXY_ALL_hideip_me_List.csv
@@ -15033,9 +15035,9 @@ dest_ip,dest_port,metadata_comment
 154.64.226.138,80,PROXY_ALL_openproxy_list.csv
 154.65.101.131,3128,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 154.65.39.7,443,PROXY_ALL_hideip_me_List.csv
-154.65.39.7,80,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+154.65.39.7,80,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 154.65.39.8,443,PROXY_ALL_hideip_me_List.csv
-154.65.39.8,80,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
+154.65.39.8,80,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
 154.66.110.164,60606,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
 154.66.159.34,800,PROXY_ALL_openproxy_list.csv
 154.70.115.42,8080,PROXY_ALL_openproxy_list.csv
@@ -16666,10 +16668,10 @@ dest_ip,dest_port,metadata_comment
 161.35.49.68,80,PROXY_ALL_openproxy_list.csv
 161.35.60.102,80,PROXY_ALL_openproxy_list.csv
 161.35.65.185,3128,PROXY_ALL_openproxy_list.csv
+161.35.70.249,80,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 161.35.70.249,8080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 161.35.70.249,3128,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 161.35.70.249,31281,PROXY_ALL_openproxy_list.csv
-161.35.70.249,80,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_openproxy_list.csv"
 161.35.70.249,1080,PROXY_ALL_sunny9577_list.csv
 161.35.82.57,1080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
 161.35.88.205,80,PROXY_ALL_openproxy_list.csv
@@ -19798,7 +19800,7 @@ dest_ip,dest_port,metadata_comment
 172.66.43.87,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 172.66.43.94,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 172.66.43.99,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
-172.66.44.121,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
+172.66.44.121,80,PROXY_ALL_openproxy_list.csv
 172.66.44.151,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 172.66.44.159,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 172.66.44.180,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
@@ -24639,11 +24641,11 @@ dest_ip,dest_port,metadata_comment
 178.32.143.55,32048,PROXY_ALL_sunny9577_list.csv
 178.32.202.54,53968,PROXY_ALL_hideip_me_List.csv
 178.32.202.54,48169,PROXY_ALL_hideip_me_List.csv
+178.32.202.54,29077,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv"
 178.32.202.54,10231,PROXY_ALL_openproxy_list.csv
 178.32.202.54,39188,"PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 178.32.202.54,45704,PROXY_ALL_openproxy_list.csv
 178.32.202.54,26045,PROXY_ALL_MuRongPIG_checked_List.csv
-178.32.202.54,29077,PROXY_ALL_MuRongPIG_checked_List.csv
 178.33.13.233,80,PROXY_ALL_openproxy_list.csv
 178.33.156.196,50007,PROXY_ALL_openproxy_list.csv
 178.33.156.197,50010,PROXY_ALL_openproxy_list.csv
@@ -24872,7 +24874,7 @@ dest_ip,dest_port,metadata_comment
 179.63.15.84,8080,PROXY_ALL_openproxy_list.csv
 179.95.203.179,8081,PROXY_ALL_openproxy_list.csv
 179.96.204.239,8080,PROXY_ALL_openproxy_list.csv
-179.96.28.58,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_openproxylist.com_list.csv"
+179.96.28.58,80,"PROXY_ALL_openproxy_list.csv, PROXY_ALL_openproxylist.com_list.csv"
 179.97.120.93,3128,PROXY_ALL_openproxy_list.csv
 179.97.120.93,3129,PROXY_ALL_openproxy_list.csv
 179.99.114.7,8080,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
@@ -26169,7 +26171,7 @@ dest_ip,dest_port,metadata_comment
 184.169.226.79,3129,PROXY_ALL_openproxy_list.csv
 184.170.245.148,4145,PROXY_ALL_hideip_me_List.csv
 184.170.248.5,4145,PROXY_ALL_openproxy_list.csv
-184.170.249.65,4145,PROXY_ALL_openproxy_list.csv
+184.170.249.65,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 184.170.251.30,11288,PROXY_ALL_fresh_proxy_list.csv
 184.174.126.111,6403,PROXY_ALL_openproxy_list.csv
 184.174.126.119,6411,PROXY_ALL_openproxy_list.csv
@@ -28928,7 +28930,6 @@ dest_ip,dest_port,metadata_comment
 185.93.89.147,4078,PROXY_ALL_hideip_me_List.csv
 185.93.89.147,4502,PROXY_ALL_hideip_me_List.csv
 185.93.89.147,4137,PROXY_ALL_hideip_me_List.csv
-185.93.89.147,4978,PROXY_ALL_fresh_proxy_list.csv
 185.93.89.147,12790,PROXY_ALL_openproxy_list.csv
 185.93.89.147,8451,PROXY_ALL_monosans_List.csv
 185.93.89.147,9364,PROXY_ALL_monosans_List.csv
@@ -30413,9 +30414,9 @@ dest_ip,dest_port,metadata_comment
 188.240.126.118,8080,PROXY_ALL_openproxy_list.csv
 188.240.192.92,8090,PROXY_ALL_openproxy_list.csv
 188.241.45.142,2021,PROXY_ALL_sunny9577_list.csv
+188.245.182.139,443,PROXY_ALL_hookzof_list.csv
 188.245.189.170,25909,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 188.245.197.88,9120,PROXY_ALL_hookzof_list.csv
-188.245.216.96,443,PROXY_ALL_hookzof_list.csv
 188.245.87.46,3129,PROXY_ALL_openproxy_list.csv
 188.245.96.116,40211,PROXY_ALL_openproxy_list.csv
 188.247.194.210,3128,PROXY_ALL_openproxy_list.csv
@@ -31324,7 +31325,7 @@ dest_ip,dest_port,metadata_comment
 192.111.135.17,18302,PROXY_ALL_openproxy_list.csv
 192.111.135.18,18301,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 192.111.137.34,18765,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
-192.111.137.35,4145,PROXY_ALL_openproxy_list.csv
+192.111.137.35,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 192.111.137.37,18762,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 192.111.138.29,4145,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
 192.111.139.162,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
@@ -31532,7 +31533,7 @@ dest_ip,dest_port,metadata_comment
 192.252.211.193,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_sunny9577_list.csv"
 192.252.211.197,14921,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 192.252.214.17,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
-192.252.214.20,15864,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+192.252.214.20,15864,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 192.252.215.2,4145,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_sunny9577_list.csv"
 192.252.215.5,16137,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 192.252.216.81,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
@@ -31584,7 +31585,7 @@ dest_ip,dest_port,metadata_comment
 192.95.33.162,36308,PROXY_ALL_hideip_me_List.csv
 192.95.33.162,2887,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_sunny9577_list.csv"
 192.95.33.162,29981,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
-192.95.33.162,29006,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
+192.95.33.162,29006,PROXY_ALL_hideip_me_List.csv
 192.95.33.162,64840,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_monosans_List.csv"
 192.95.33.162,1129,PROXY_ALL_fresh_proxy_list.csv
 192.99.102.7,3838,PROXY_ALL_openproxy_list.csv
@@ -34118,9 +34119,9 @@ dest_ip,dest_port,metadata_comment
 198.199.64.24,63167,PROXY_ALL_monosans_List.csv
 198.199.72.190,3128,PROXY_ALL_openproxy_list.csv
 198.199.83.206,8000,PROXY_ALL_openproxy_list.csv
+198.199.86.11,80,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 198.199.86.11,8080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 198.199.86.11,1080,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_sunny9577_list.csv"
-198.199.86.11,80,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 198.199.86.11,3128,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 198.199.86.11,801,PROXY_ALL_openproxy_list.csv
 198.20.116.86,9000,PROXY_ALL_openproxy_list.csv
@@ -34973,7 +34974,7 @@ dest_ip,dest_port,metadata_comment
 200.170.196.94,1080,PROXY_ALL_openproxy_list.csv
 200.170.210.237,8080,PROXY_ALL_openproxy_list.csv
 200.170.210.238,8080,PROXY_ALL_openproxy_list.csv
-200.174.198.86,8888,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+200.174.198.86,8888,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 200.187.119.72,3128,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 200.188.112.145,999,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
 200.188.112.146,999,PROXY_ALL_openproxy_list.csv
@@ -35997,7 +35998,7 @@ dest_ip,dest_port,metadata_comment
 203.95.198.29,32650,PROXY_ALL_openproxy_list.csv
 203.95.198.35,8080,"PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 203.95.198.84,8080,PROXY_ALL_openproxy_list.csv
-203.95.199.159,8080,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
+203.95.199.159,8080,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 203.95.199.7,8080,PROXY_ALL_openproxy_list.csv
 203.96.177.211,46688,PROXY_ALL_monosans_List.csv
 203.96.226.154,8080,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
@@ -36554,7 +36555,6 @@ dest_ip,dest_port,metadata_comment
 209.38.103.166,12602,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 209.38.148.139,8888,PROXY_ALL_hideip_me_List.csv
 209.38.150.154,3128,"PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv"
-209.38.226.212,443,PROXY_ALL_hookzof_list.csv
 209.38.233.193,8080,PROXY_ALL_openproxy_list.csv
 209.45.108.230,1011,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
 209.45.19.1,999,PROXY_ALL_openproxy_list.csv
@@ -36567,7 +36567,7 @@ dest_ip,dest_port,metadata_comment
 209.97.132.189,8118,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
 209.97.149.157,80,PROXY_ALL_openproxy_list.csv
 209.97.150.167,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
-209.97.150.167,3128,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
+209.97.150.167,3128,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 209.97.150.167,3129,PROXY_ALL_openproxy_list.csv
 209.97.150.167,8080,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 209.97.153.149,8888,PROXY_ALL_hideip_me_List.csv
@@ -37700,7 +37700,7 @@ dest_ip,dest_port,metadata_comment
 218.75.224.4,3309,PROXY_ALL_openproxy_list.csv
 218.76.247.34,3000,PROXY_ALL_sunny9577_list.csv
 218.77.106.10,10150,PROXY_ALL_openproxy_list.csv
-218.77.183.214,5224,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
+218.77.183.214,5224,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 218.80.1.33,9292,PROXY_ALL_openproxy_list.csv
 218.85.5.108,597,PROXY_ALL_openproxy_list.csv
 218.87.205.103,2324,PROXY_ALL_openproxy_list.csv
@@ -37863,7 +37863,7 @@ dest_ip,dest_port,metadata_comment
 221.226.75.86,55443,PROXY_ALL_openproxy_list.csv
 221.228.154.184,8089,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
 221.230.77.10,10800,PROXY_ALL_openproxy_list.csv
-221.231.13.198,1080,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+221.231.13.198,1080,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 221.231.13.198,1081,PROXY_ALL_openproxy_list.csv
 221.232.14.158,8888,PROXY_ALL_openproxy_list.csv
 221.237.156.103,7785,PROXY_ALL_openproxy_list.csv
@@ -42414,7 +42414,7 @@ dest_ip,dest_port,metadata_comment
 38.51.233.146,60606,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
 38.51.234.110,1986,PROXY_ALL_openproxy_list.csv
 38.51.235.213,999,PROXY_ALL_monosans_List.csv
-38.51.235.216,999,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv"
+38.51.235.216,999,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv"
 38.51.236.9,1080,PROXY_ALL_openproxy_list.csv
 38.51.237.124,999,PROXY_ALL_openproxy_list.csv
 38.51.237.4,999,PROXY_ALL_openproxy_list.csv
@@ -47076,7 +47076,7 @@ dest_ip,dest_port,metadata_comment
 45.191.4.253,8080,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
 45.191.46.210,999,PROXY_ALL_openproxy_list.csv
 45.191.47.1,999,PROXY_ALL_openproxy_list.csv
-45.191.7.249,8080,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+45.191.7.249,8080,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 45.191.7.250,8080,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv"
 45.191.75.176,999,PROXY_ALL_openproxy_list.csv
 45.191.75.181,999,PROXY_ALL_openproxy_list.csv
@@ -47912,7 +47912,7 @@ dest_ip,dest_port,metadata_comment
 45.65.138.48,999,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
 45.65.227.161,999,PROXY_ALL_openproxy_list.csv
 45.65.227.97,999,PROXY_ALL_openproxy_list.csv
-45.65.233.227,4145,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxylist.com_list.csv"
+45.65.233.227,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxylist.com_list.csv"
 45.65.233.229,4145,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
 45.65.65.18,4145,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
 45.66.157.22,8080,PROXY_ALL_openproxy_list.csv
@@ -48693,7 +48693,7 @@ dest_ip,dest_port,metadata_comment
 46.29.116.3,4145,PROXY_ALL_hideip_me_List.csv
 46.29.116.6,4145,"PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 46.29.138.155,3128,PROXY_ALL_openproxy_list.csv
-46.29.162.222,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+46.29.162.222,80,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 46.29.237.14,9988,PROXY_ALL_openproxy_list.csv
 46.29.237.247,8080,PROXY_ALL_openproxy_list.csv
 46.32.15.59,3128,PROXY_ALL_openproxy_list.csv
@@ -51026,22 +51026,21 @@ dest_ip,dest_port,metadata_comment
 51.20.50.149,3128,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
 51.210.0.56,3128,PROXY_ALL_openproxy_list.csv
 51.210.108.98,3128,PROXY_ALL_openproxy_list.csv
-51.210.111.216,39811,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
+51.210.111.216,39811,PROXY_ALL_hideip_me_List.csv
 51.210.111.216,62160,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
 51.210.111.216,29963,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
 51.210.111.216,60686,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_monosans_List.csv"
 51.210.111.216,43311,PROXY_ALL_hideip_me_List.csv
 51.210.111.216,22302,PROXY_ALL_hideip_me_List.csv
-51.210.111.216,33123,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
-51.210.111.216,47878,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
+51.210.111.216,33123,PROXY_ALL_hideip_me_List.csv
+51.210.111.216,47878,PROXY_ALL_hideip_me_List.csv
 51.210.111.216,56241,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
 51.210.111.216,29733,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
 51.210.111.216,43520,PROXY_ALL_hideip_me_List.csv
 51.210.111.216,11926,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_sunny9577_list.csv"
 51.210.111.216,64861,PROXY_ALL_hideip_me_List.csv
-51.210.111.216,26732,PROXY_ALL_fresh_proxy_list.csv
-51.210.111.216,16466,PROXY_ALL_fresh_proxy_list.csv
 51.210.111.216,16490,PROXY_ALL_fresh_proxy_list.csv
+51.210.111.216,26732,PROXY_ALL_fresh_proxy_list.csv
 51.210.127.15,80,PROXY_ALL_openproxy_list.csv
 51.210.148.119,443,PROXY_ALL_hideip_me_List.csv
 51.210.164.122,8080,PROXY_ALL_openproxy_list.csv
@@ -51113,7 +51112,6 @@ dest_ip,dest_port,metadata_comment
 51.75.126.150,14602,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_sunny9577_list.csv"
 51.75.126.150,22196,PROXY_ALL_fresh_proxy_list.csv
 51.75.126.150,3639,PROXY_ALL_fresh_proxy_list.csv
-51.75.126.150,8177,PROXY_ALL_fresh_proxy_list.csv
 51.75.126.150,28381,PROXY_ALL_openproxy_list.csv
 51.75.126.150,29851,PROXY_ALL_openproxy_list.csv
 51.75.126.150,50677,PROXY_ALL_openproxy_list.csv
@@ -51459,7 +51457,6 @@ dest_ip,dest_port,metadata_comment
 54.36.176.100,41611,PROXY_ALL_hideip_me_List.csv
 54.36.176.100,52638,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 54.36.176.100,10635,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv"
-54.36.176.100,12550,PROXY_ALL_fresh_proxy_list.csv
 54.36.176.100,37584,PROXY_ALL_openproxy_list.csv
 54.36.81.217,8080,PROXY_ALL_openproxy_list.csv
 54.37.131.98,443,PROXY_ALL_hookzof_list.csv
@@ -51518,7 +51515,7 @@ dest_ip,dest_port,metadata_comment
 57.128.44.204,3128,"PROXY_ALL_kangproxy_List.csv, PROXY_ALL_openproxy_list.csv"
 57.129.1.214,443,PROXY_ALL_hideip_me_List.csv
 57.129.81.201,1080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
-57.129.81.201,8080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+57.129.81.201,8080,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 57.129.81.201,3128,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 57.129.81.201,8081,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 57.129.81.201,999,"PROXY_ALL_MuRongPIG_checked_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
@@ -55788,7 +55785,7 @@ dest_ip,dest_port,metadata_comment
 66.201.5.128,3128,PROXY_ALL_openproxy_list.csv
 66.201.5.31,3128,PROXY_ALL_openproxy_list.csv
 66.201.6.117,3128,PROXY_ALL_openproxy_list.csv
-66.201.7.151,3128,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+66.201.7.151,3128,"PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 66.201.7.151,3129,PROXY_ALL_openproxy_list.csv
 66.210.33.34,8080,PROXY_ALL_openproxy_list.csv
 66.211.155.34,8080,"PROXY_ALL_kangproxy_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
@@ -67649,7 +67646,7 @@ dest_ip,dest_port,metadata_comment
 72.195.114.169,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 72.195.114.184,4145,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 72.195.34.35,27360,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
-72.195.34.41,4145,"PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
+72.195.34.41,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
 72.195.34.42,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 72.195.34.58,4145,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 72.195.34.59,4145,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
@@ -69401,7 +69398,7 @@ dest_ip,dest_port,metadata_comment
 82.223.165.28,13238,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
 82.223.165.28,44432,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv"
 82.223.165.28,9526,PROXY_ALL_hideip_me_List.csv
-82.223.165.28,8352,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv"
+82.223.165.28,8352,PROXY_ALL_hideip_me_List.csv
 82.223.165.28,44765,PROXY_ALL_fresh_proxy_list.csv
 82.23.213.149,6989,PROXY_ALL_openproxy_list.csv
 82.23.213.152,6992,PROXY_ALL_openproxy_list.csv
@@ -70502,7 +70499,7 @@ dest_ip,dest_port,metadata_comment
 87.247.186.40,1080,PROXY_ALL_openproxy_list.csv
 87.247.251.240,3128,PROXY_ALL_openproxy_list.csv
 87.248.129.26,80,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_hideip_me_List.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
-87.248.129.32,80,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
+87.248.129.32,80,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 87.248.130.39,80,PROXY_ALL_openproxy_list.csv
 87.248.171.0,49650,PROXY_ALL_openproxy_list.csv
 87.248.171.235,4145,PROXY_ALL_openproxy_list.csv
@@ -70743,7 +70740,7 @@ dest_ip,dest_port,metadata_comment
 89.116.78.89,5700,PROXY_ALL_openproxy_list.csv
 89.117.130.19,80,PROXY_ALL_openproxy_list.csv
 89.117.130.79,3128,PROXY_ALL_openproxy_list.csv
-89.117.145.245,3128,"PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
+89.117.145.245,3128,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv, PROXY_ALL_sunny9577_list.csv"
 89.117.145.245,3129,PROXY_ALL_openproxy_list.csv
 89.117.22.247,3128,PROXY_ALL_openproxy_list.csv
 89.117.55.119,443,PROXY_ALL_hideip_me_List.csv
@@ -71538,7 +71535,7 @@ dest_ip,dest_port,metadata_comment
 93.112.21.199,8080,PROXY_ALL_openproxy_list.csv
 93.113.238.37,8080,PROXY_ALL_openproxy_list.csv
 93.113.63.73,33100,PROXY_ALL_openproxy_list.csv
-93.115.172.94,1080,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_kangproxy_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
+93.115.172.94,1080,"PROXY_ALL_kangproxy_List.csv, PROXY_ALL_monosans_List.csv, PROXY_ALL_openproxy_list.csv"
 93.116.57.4,4153,PROXY_ALL_openproxy_list.csv
 93.117.225.195,80,"PROXY_ALL_fresh_proxy_list.csv, PROXY_ALL_openproxy_list.csv"
 93.117.72.27,55770,"PROXY_ALL_TheSpeedX_List.csv, PROXY_ALL_openproxy_list.csv"
