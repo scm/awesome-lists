@@ -737,6 +737,28 @@ rule Trojan_Win64_ShellcodeRunner_RPA_2147926892_0
         severity = "Critical"
         info = "MTB: Microsoft Threat Behavior"
         signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "11"
+        strings_accuracy = "High"
+    strings:
+        $x_10_1 = {48 8d 45 f0 49 89 c1 48 8d 45 f8 49 89 c0 48 b8 7e 13 00 00 00 00 00 00 49 89 c3 48 8d 05 3c 13 00 00 49 89 c2 4c 89 d1 4c 89 da}  //weight: 10, accuracy: High
+        $x_1_2 = {b8 00 30 00 00 48 89 44 24 20 48 8d 45 d8 49 89 c1 48 b8 00 00 00 00 00 00 00 00 49 89 c0 48 8d 45 e0 49 89 c3 48 8b 45 e8 49 89 c2 4c 89 d1 4c 89 da 4c 8b 1d 04 80 03 00 41 ff d3}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_ShellcodeRunner_RPA_2147926892_1
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/ShellcodeRunner.RPA!MTB"
+        threat_id = "2147926892"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "ShellcodeRunner"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
         threshold = "1"
         strings_accuracy = "High"
     strings:
@@ -1066,6 +1088,27 @@ rule Trojan_Win64_ShellcodeRunner_AHB_2147941646_0
         $x_10_1 = {48 89 85 88 00 00 00 48 8d 55 28 48 8d 4d 58 ff 95 88 00 00 00}  //weight: 10, accuracy: High
         $x_5_2 = {c7 45 04 00 00 00 00 8b 85 ?? ?? 00 00 89 45 28 8b 85 98 01 00 00 89 45 2c 48 8b 85 90 01 00 00}  //weight: 5, accuracy: Low
         $x_1_3 = {73 50 61 79 6c 6f 61 64 53 69 7a 65 00 00 00 00 70 50 61 79 6c 6f 61 64 44 61 74 61}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_ShellcodeRunner_ALV_2147942873_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/ShellcodeRunner.ALV!MTB"
+        threat_id = "2147942873"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "ShellcodeRunner"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "5"
+        strings_accuracy = "Low"
+    strings:
+        $x_5_1 = {41 ff c1 49 63 c9 48 8d 95 ?? ?? ?? ?? 48 03 d1 0f b6 0a 41 88 0b 44 88 02 45 02 03 41 0f b6 d0 44 0f b6 84 15 ?? ?? ?? ?? 45 30 02 49 ff c2 48 83 eb 01 75 92}  //weight: 5, accuracy: Low
     condition:
         (filesize < 20MB) and
         (all of ($x*))
