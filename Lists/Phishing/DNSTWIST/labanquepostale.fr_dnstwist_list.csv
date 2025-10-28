@@ -1,5 +1,5 @@
 fuzzer,domain,dns_a,dns_aaaa,dns_mx,dns_ns
-*original,labanquepostale.fr,185.16.252.161,,rpi0i692.laposte.fr,ns2.laposte.net
+*original,labanquepostale.fr,185.16.252.161,,rpi0i692.laposte.fr,ns1.laposte.fr
 addition,labanquepostale0.fr,,,,
 addition,labanquepostale1.fr,,,,
 addition,labanquepostale2.fr,,,,
@@ -1420,13 +1420,13 @@ insertion,lzabanquepostale.fr,,,,
 insertion,mlabanquepostale.fr,,,,
 insertion,olabanquepostale.fr,,,,
 insertion,plabanquepostale.fr,,,,
+omission,labanquepostae.fr,,,,
 omission,labanuepostale.fr,104.247.81.50,,mail.h-email.net,ns1.parkingcrew.net
 omission,labaquepostale.fr,104.247.81.50,,mail.h-email.net,ns1.parkingcrew.net
 omission,abanquepostale.fr,104.247.81.53,,mail.h-email.net,ns1.parkingcrew.net
 omission,labanqueostale.fr,104.247.81.53,,mail.h-email.net,ns1.parkingcrew.net
 omission,labanqepostale.fr,104.247.82.51,,,ns1.parkingcrew.net
 omission,laanquepostale.fr,104.247.82.53,,mail.h-email.net,ns1.parkingcrew.net
-omission,labanquepostae.fr,,,,
 omission,labanquepostle.fr,104.247.82.54,,,ns1.parkingcrew.net
 omission,labanquepotale.fr,104.247.82.71,,,ns1.parkingcrew.net
 omission,labanqupostale.fr,46.175.135.11,!ServFail,mail.parktons.com,ns1.radinko.com
@@ -1479,10 +1479,10 @@ replacement,labanqueposgale.fr,,,,
 replacement,labanqueposrale.fr,172.233.219.123,,mx.plingest.com,ns4.dnsauthority.com
 replacement,labanquepost1le.fr,,,,
 replacement,labanquepost2le.fr,,,,
-replacement,labanquepostal3.fr,,,,
-replacement,labanquepostalr.fr,172.233.219.123,,mx.plingest.com,ns4.dnsauthority.com
 replacement,labanquepostake.fr,66.175.209.179,2600:3c03::f03c:95ff:fe91:5d52,,lunlun.ns.giantpanda.com
+replacement,labanquepostal3.fr,,,,
 replacement,labanquepostal4.fr,,,,
+replacement,labanquepostalr.fr,172.233.219.123,,mx.plingest.com,ns4.dnsauthority.com
 replacement,labanquepostals.fr,,,,
 replacement,labanquepostalw.fr,,,,
 replacement,labanquepostalz.fr,,,,
