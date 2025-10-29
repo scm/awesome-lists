@@ -64,3 +64,68 @@ rule Trojan_Win64_NukeSped_DA_2147930009_0
         (all of ($x*))
 }
 
+rule Trojan_Win64_NukeSped_GXF_2147956305_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/NukeSped.GXF!MTB"
+        threat_id = "2147956305"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "NukeSped"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "10"
+        strings_accuracy = "High"
+    strings:
+        $x_5_1 = {5a 4e 33 36 33 4e 64 64 00 6e 74 64 6c 6c}  //weight: 5, accuracy: High
+        $x_5_2 = {45 36 50 20 43 4d 5c 31 73 46 45 6f 42 44 54 57 33 4b 6f 31 45 00 00 00 00 74 78 34}  //weight: 5, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_NukeSped_GXG_2147956319_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/NukeSped.GXG!MTB"
+        threat_id = "2147956319"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "NukeSped"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "10"
+        strings_accuracy = "Low"
+    strings:
+        $x_5_1 = {6b 65 72 6e c7 85 ?? ?? ?? ?? 65 6c 33 32 c7 85 ?? ?? ?? ?? 2e 64 6c 6c c6 85 ?? ?? ?? ?? 00 48 8d 8d ?? ?? ?? ?? ff 15}  //weight: 5, accuracy: Low
+        $x_5_2 = {48 8d 45 cb 48 89 44 24 40 44 89 7c 24 38 4c 89 7c 24 30 8b 43 10 89 44 24 28 48 89 4c 24 20 45 33 c9 44 8b 47 10 48 8b 4d cf ff 15}  //weight: 5, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_NukeSped_CH_2147956320_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/NukeSped.CH!MTB"
+        threat_id = "2147956320"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "NukeSped"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "2"
+        strings_accuracy = "Low"
+    strings:
+        $x_2_1 = {0f b6 84 29 ?? ?? ?? ?? ff c2 32 04 19 88 04 39 8b ca 48 3b ce 72}  //weight: 2, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
