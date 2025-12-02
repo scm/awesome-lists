@@ -1626,5 +1626,6 @@ dest_ip,metadata_region,metadata_service,metadata_network_border_group
 99.77.186.0/24,us-west-2,EC2,us-west-2
 142.4.177.0/24,ap-south-1,EC2,ap-south-1
 15.177.68.0/23,eu-central-1,EC2,eu-central-1
+23.228.228.0/22,us-east-1,EC2,us-east-1
 35.55.127.0/24,us-west-2,EC2,us-west-2
 177.71.128.0/17,sa-east-1,EC2,sa-east-1
