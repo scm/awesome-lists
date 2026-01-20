@@ -1847,6 +1847,7 @@ dest_ip,metadata_region,metadata_service,metadata_network_border_group
 15.230.223.10/31,eu-west-1,AMAZON,eu-west-1
 40.39.0.0/16,us-gov-west-1,AMAZON,us-gov-west-1
 40.187.0.0/16,ca-central-1,AMAZON,ca-central-1
+45.33.164.0/24,ap-southeast-2,AMAZON,ap-southeast-2
 52.93.86.194/32,us-east-1,AMAZON,us-east-1
 52.93.126.138/32,ap-southeast-2,AMAZON,ap-southeast-2
 52.93.153.80/32,eu-west-2,AMAZON,eu-west-2
