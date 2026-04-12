@@ -53,17 +53,17 @@ bitsquatting,leboncgin.fr,,,,
 bitsquatting,lebonckin.fr,,,,
 bitsquatting,leboncmin.fr,,,,
 bitsquatting,leboncnin.fr,,,,
-bitsquatting,leboncoan.fr,,,,ns1.leboncoin.net
 bitsquatting,leboncohn.fr,,,,
 bitsquatting,leboncoif.fr,,,,
 bitsquatting,leboncoij.fr,,,,
 bitsquatting,leboncoil.fr,,,,
-bitsquatting,leboncoio.fr,,,,
 bitsquatting,leboncokn.fr,,,,
 bitsquatting,leboncomn.fr,,,,
 bitsquatting,leboncoyn.fr,,,,
-bitsquatting,lebongoin.fr,,,,
 bitsquatting,lebonsoin.fr,104.21.94.199,2606:4700:3033::ac43:a8a6,,koa.ns.cloudflare.com
+bitsquatting,leboncoan.fr,,,,ns1.leboncoin.net
+bitsquatting,leboncoio.fr,,,,
+bitsquatting,lebongoin.fr,,,,
 bitsquatting,lebonkoin.fr,,,,ns1.leboncoin.net
 bitsquatting,leboocoin.fr,,,,
 bitsquatting,leconcoin.fr,,,,
@@ -753,7 +753,7 @@ omission,lboncoin.fr,45.33.83.100,2600:3c03::f03c:95ff:fe00:29ca,,lunlun.ns.gian
 omission,lebncoin.fr,,,,
 omission,leboncin.fr,45.33.83.100,2600:3c03::f03c:95ff:fe00:29ca,,lunlun.ns.giantpanda.com
 omission,leboncoi.fr,45.33.83.100,2600:3c03::f03c:95ff:fe00:29ca,,lunlun.ns.giantpanda.com
-omission,lebocoin.fr,,,!ServFail,ns1.bodis.com
+omission,lebocoin.fr,,,,ns1.bodis.com
 omission,leboncon.fr,,,,bonnie.ns.cloudflare.com
 omission,leoncoin.fr,,,,
 plural,leboncosin.fr,,,,
@@ -779,7 +779,6 @@ replacement,lebonciin.fr,,,,
 replacement,lebonclin.fr,,,,
 replacement,lebonco8n.fr,,,,
 replacement,lebonco9n.fr,,,,
-replacement,leboncoih.fr,,,,
 replacement,leboncojn.fr,,,,
 replacement,lebonfoin.fr,185.158.133.1,,alt1.aspmx.l.google.com,ns81.domaincontrol.com
 replacement,leboncoun.fr,45.33.83.100,2600:3c03::f03c:95ff:fe00:29ca,,lunlun.ns.giantpanda.com
@@ -787,6 +786,7 @@ replacement,leboncpin.fr,45.33.83.100,2600:3c03::f03c:95ff:fe00:29ca,,lunlun.ns.
 replacement,lebondoin.fr,,,,
 replacement,lebonvoin.fr,84.16.66.164,2001:1600:0:aaaa::2:14,,ns11.infomaniak.ch
 replacement,leboncoib.fr,,,,ns1.parkingcrew.net
+replacement,leboncoih.fr,,,,
 replacement,leboncoon.fr,,,,ns1.parkingcrew.net
 replacement,lebonxoin.fr,,,,
 replacement,lebpncoin.fr,,,,ns1.parkingcrew.net
@@ -807,10 +807,10 @@ subdomain,lebo.ncoin.fr,,,,
 subdomain,lebon.coin.fr,,,,
 subdomain,lebonc.oin.fr,,,,ns1.nameshift.com
 subdomain,lebonco.in.fr,,,,
-transposition,lebocnoin.fr,213.186.33.5,,mx3.mail.ovh.net,dns103.ovh.net
 transposition,elboncoin.fr,81.92.80.55,,mx3.nameshield.com,ns2.observatoiredesmarques.fr
 transposition,lbeoncoin.fr,,,,
 transposition,lebnocoin.fr,,,,
+transposition,lebocnoin.fr,213.186.33.5,,mx3.mail.ovh.net,dns103.ovh.net
 transposition,leboncion.fr,,,,
 transposition,lebonconi.fr,,,,
 transposition,lebonocin.fr,,,,
