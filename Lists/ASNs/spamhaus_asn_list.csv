@@ -1,6 +1,7 @@
 as_number,rir,domain,cc,asname
 245,arin,planningresearchcorp.com,US,PRC-AS
 2601,ripencc,pitline.net,UA,RADIOLINK-AS
+2702,arin,novx-systems,US,INTERSERVE
 3563,arin,pilot.net,US,PILOT-ASN
 5065,arin,bunnycommunications.com,US,BUNNY-COMMUNICATIONS-GLOBAL
 6060,arin,management-alliance-group,US,MAGI-NET-GW
@@ -8,6 +9,7 @@ as_number,rir,domain,cc,asname
 6207,arin,bunnycommunications.com,US,BUNNY-COMMUNICATIONS
 6729,ripencc,bignet.ua,UA,DEMENIN-AS
 7411,arin,sulharai.com,US,WINTERSTORM
+7857,arin,empire-communications,US,EMPIRE2-ASN
 7907,arin,networldtron.net,US,NETWORD-CORP
 8649,ripencc,zexotek.de,DE,Webtraffic
 9164,ripencc,bignet.ua,UA,R-TEL-AS
@@ -84,6 +86,7 @@ as_number,rir,domain,cc,asname
 51722,ripencc,pixoof.com,TR,AS-PIXOOF
 53958,arin,auproxies.com,US,BART-BM
 54497,arin,lhwebtech.com,US,LHWEBTECH-AS
+54801,arin,zillionnetwork.com,HK,ZILLION-NETWORK
 55154,arin,madgenius.com,US,MADGEN-01
 55748,apnic,morsejp.com,JP,MORSE-JP
 55933,apnic,cloudie.hk,HK,CLOUDIE-AS-AP
@@ -207,6 +210,7 @@ as_number,rir,domain,cc,asname
 201380,ripencc,excitedmatch.com,UA,ALFABISNES-AS
 201572,ripencc,ekoiniciative.pp.ua,UA,EKO-INICIATIVE-AS
 201626,ripencc,bignet.ua,UA,PODILLIA-AS
+201738,ripencc,changway.hk,HK,UFO-TECHNOLOGIES-LIMITED
 201813,ripencc,kontrast.md,MD,Contrust-Solutions
 201836,ripencc,garant-plus-inform,UA,GARANT-AS
 202144,ripencc,chempir,UA,CHEMPIR-AS
@@ -359,11 +363,12 @@ as_number,rir,domain,cc,asname
 215340,ripencc,62yun.com,RU,MySim-Nigeria
 215376,ripencc,sshvps.net,RU,mlcloud
 215381,ripencc,rockhoster.com,IN,RockHoster
-215460,ripencc,infiniroute.io,US,DANIEL
+215460,ripencc,infiniroute.io,US,FELCLOUD
 215462,ripencc,sircrosar.net,GB,BUGGZ-HOSTING
 215474,ripencc,biil.ru,GB,BIIL-RU-AS
 215730,ripencc,h2.nexus,UA,H2NEXUS-AS
 215765,ripencc,pitline.net,UA,RADIO-LINK-SMART
+215828,ripencc,t-w.dev,DE,TMW-Global-Networks
 215925,ripencc,vpsvault.host,GB,VPSVAULTHOST
 215930,ripencc,almaseabi.net,IR,COD
 216127,ripencc,nuxt.cloud,RU,NUXT-AS
@@ -398,3 +403,4 @@ as_number,rir,domain,cc,asname
 401696,arin,cognetcloud.com,HK,COGNETCLOUD
 401701,arin,cognetcloud.com,HK,COGNETCLOUD-2
 402075,arin,securecommsgroup.xyz,US,PEEKABO
+402253,arin,skntelecom.com,KN,SKN-NETWORK-1
