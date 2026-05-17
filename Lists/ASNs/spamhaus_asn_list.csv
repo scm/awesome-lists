@@ -159,6 +159,7 @@ as_number,rir,domain,cc,asname
 142622,apnic,bunnycommunications.com,US,DIL-AS-AP
 146887,apnic,noobtech.in,IN,MAINT-IN-IRINN
 147211,apnic,onlinepragathi.com,IN,PRAGATHI-AS-IN
+147269,apnic,datawingstel.in,IN,DATAWINGS-AS-IN
 147287,apnic,dataparadise.net,IN,DATAPARA1-AS-IN
 147291,apnic,khalidgroup.co,PK,KHALIDGROUP-AS-AP
 149181,apnic,bhagwatsoft.in,IN,BHAGWAT-AS-IN
@@ -189,7 +190,9 @@ as_number,rir,domain,cc,asname
 154206,apnic,cloudie.hk,HK,CDN1COM-AS-AP
 197450,ripencc,sunucun.com.tr,TR,SUNUCUN
 197555,ripencc,smartmieten.in,IN,SMARTMIETEN
+197769,ripencc,vpsdedicated.net,US,VPSDEDICATED-AS
 198071,ripencc,berch.co.uk,GB,BERCHSOLUTIONS-AS
+198189,ripencc,stealthvm.net,GB,STEALTHVM
 198571,ripencc,plainproxies.com,DE,PlainProxies
 198926,ripencc,rapidoserver.com,IR,Tajook
 198953,ripencc,proton66.ru,RU,proton66
@@ -239,6 +242,7 @@ as_number,rir,domain,cc,asname
 204872,ripencc,kontrast.md,MD,Contrust-Solutions
 205083,ripencc,xor.sc,SC,DATASHIELD_FILTER
 205301,ripencc,kontrast.md,MD,Contrust-Solutions
+205397,ripencc,69host.cc,US,AS-69HOST
 205486,ripencc,sunucun.com.tr,TR,LKGF
 205745,ripencc,kontrast.md,MD,Contrust-Solutions
 205759,ripencc,ghostynetworks.com,US,GHOSTYNETWORKS
@@ -328,6 +332,7 @@ as_number,rir,domain,cc,asname
 213200,ripencc,tube-hosting.de,DE,FZink
 213355,ripencc,changway.hk,HK,HGN-AS
 213373,ripencc,ipconnect.services,SC,IPCONNECT
+213388,ripencc,iic-rail,GB,IIC-AS
 213389,ripencc,netip.com.ua,UA,ASPODOLSK
 213438,ripencc,colocatel.com,SC,colocatel-inc
 213441,ripencc,slayergroup.ltd,GB,SLAYER-AS
@@ -350,6 +355,7 @@ as_number,rir,domain,cc,asname
 214422,ripencc,qwins.co,EE,NET67X
 214472,ripencc,offshore.cx,LU,STORMINDUSTRIES
 214497,ripencc,whitelabel.sh,IL,WHITELABEL
+214576,ripencc,berdiev-ruslan-mukhabatovich,RU,BRM5-AS
 214717,ripencc,dolphinhost.net,GB,DOLPHINHOST-AS
 214927,ripencc,psb.hosting,RU,PSB-AS
 214940,ripencc,virtualine.org,GB,KPRONET
@@ -362,6 +368,7 @@ as_number,rir,domain,cc,asname
 215340,ripencc,62yun.com,RU,MySim-Nigeria
 215376,ripencc,sshvps.net,RU,mlcloud
 215381,ripencc,rockhoster.com,IN,RockHoster
+215402,ripencc,berdiev-ruslan-mukhabatovich,RU,ASAD-AS
 215460,ripencc,infiniroute.io,US,FELCLOUD
 215462,ripencc,sircrosar.net,GB,BUGGZ-HOSTING
 215474,ripencc,biil.ru,GB,BIIL-RU-AS
@@ -385,7 +392,7 @@ as_number,rir,domain,cc,asname
 398638,arin,jellydigital.net,US,JELLYDIGITAL
 398741,arin,62yun.com,RU,AS-VERTEXLINK-01
 399073,arin,bunnycommunications.com,US,TBB-ASN
-399471,arin,serverion.com,NL,AS-DESEQUITY
+399471,arin,serverion.com,NL,AS-SERVERION
 399979,arin,493networking.cc,US,AS-493NETWORKING
 400018,arin,seacom.cc,US,CLOUD
 400171,arin,alphainfolab.com,IN,AS-AINFO
