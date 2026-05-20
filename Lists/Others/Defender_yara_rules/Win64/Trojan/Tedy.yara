@@ -5629,6 +5629,29 @@ rule Trojan_Win64_Tedy_AHT_2147968061_0
         (all of ($x*))
 }
 
+rule Trojan_Win64_Tedy_AHT_2147968061_1
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Tedy.AHT!MTB"
+        threat_id = "2147968061"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Tedy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "60"
+        strings_accuracy = "High"
+    strings:
+        $x_30_1 = "c56cadc1-681f-6d73-e396-d632d071d666" ascii //weight: 30
+        $x_20_2 = "85c20251-6bd8-da4b-da7c-4263ea6c1d9b" ascii //weight: 20
+        $x_10_3 = "5535f8fc-17a5-5288-d93f-77dfe457554d" ascii //weight: 10
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
 rule Trojan_Win64_Tedy_BAE_2147968386_0
 {
     meta:
@@ -6026,6 +6049,34 @@ rule Trojan_Win64_Tedy_AHS_2147969664_0
     strings:
         $x_30_1 = {c6 44 24 70 ?? 0f b6 44 24 70 48 89 c1 48 83 f1 ?? 48 83 f0 ?? 65 48 8b 11 48 8b 1c 02 48 85 db 0f}  //weight: 30, accuracy: Low
         $x_20_2 = "LOADUST_BLOAT_ARMmini_loader_core.rs" ascii //weight: 20
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_Tedy_GCV_2147969811_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Tedy.GCV!MTB"
+        threat_id = "2147969811"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Tedy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "8"
+        strings_accuracy = "High"
+    strings:
+        $x_1_1 = "_signer.bat" ascii //weight: 1
+        $x_1_2 = "\\temp_cert.cer" ascii //weight: 1
+        $x_1_3 = "SetWindowsHookExW" ascii //weight: 1
+        $x_1_4 = "hook - cheatglobal.com" ascii //weight: 1
+        $x_1_5 = "VALORANT-Win64-Shipping.exe" ascii //weight: 1
+        $x_1_6 = "Set-AuthenticodeSignature -FilePath" ascii //weight: 1
+        $x_1_7 = "powershell -ExecutionPolicy Bypass -Command" ascii //weight: 1
+        $x_1_8 = "New-SelfSignedCertificate -Type CodeSigningCert -Subject" ascii //weight: 1
     condition:
         (filesize < 20MB) and
         (all of ($x*))
