@@ -151,6 +151,28 @@ rule Trojan_Win64_Vidar_AVI_2147937730_0
         (all of ($x*))
 }
 
+rule Trojan_Win64_Vidar_AVI_2147937730_1
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Vidar.AVI!MTB"
+        threat_id = "2147937730"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Vidar"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "3"
+        strings_accuracy = "Low"
+    strings:
+        $x_1_1 = {48 8d 05 d5 b7 25 00 e8 ?? ?? ?? ?? 48 8b 8c 24 28 05 00 00 48 8b 15 b9 73 20 00 48 89 14 24 48 89 4c 24 08 e8 ?? ?? ?? ?? 45 0f 57 ff 4c 8b 35 78 b8 25 00 65 4d 8b 36 4d 8b 36 48 8b 4c 24 10 83 f9 ff 0f 84 14 02 00 00 48 8b 84 24 28 05 00 00 48 8b 0d ec 73 20 00 48 8b 94 24 40 05 00 00 48 89 0c 24 48 89 44 24 08 48 89 54 24 10}  //weight: 1, accuracy: Low
+        $x_2_2 = {48 8b 84 24 28 05 00 00 48 8b 15 8c 72 20 00 48 89 14 24 48 89 44 24 08 48 89 4c 24 10 e8 ?? ?? ?? ?? 45 0f 57 ff 4c 8b 35 de b6 25 00 65 4d 8b 36 4d 8b 36 48 8b 84 24 48 05 00}  //weight: 2, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
 rule Trojan_Win64_Vidar_SLAE_2147941890_0
 {
     meta:
@@ -2300,6 +2322,27 @@ rule Trojan_Win64_Vidar_AIV_2147968154_0
         strings_accuracy = "High"
     strings:
         $x_1_1 = {41 8a 4c 05 00 80 f1 df 88 0c 38 48 ff c0 48 83 f8 0c 75 ec c6 05 97 3a 06 00 00 48 8d 15 84 3a 06 00 48 8b 0d 0d 2c 06 00 48 83 ec 20}  //weight: 1, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_Vidar_AIV_2147968154_1
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Vidar.AIV!MTB"
+        threat_id = "2147968154"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Vidar"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "1"
+        strings_accuracy = "Low"
+    strings:
+        $x_1_1 = {48 89 c8 48 89 d1 31 ff e8 ?? ?? ?? ?? 84 c0 74 65 48 8d 05 a5 c6 03 00 48 8b 8c 24 40 05 00 00 48 8b 91 98 00 00 00 48 83 c2 f8 48 89 d6 ?? 48 89 1a ?? 48 89 b1 98 00 00 00 ?? 48 89 81 f8 00 00 00 48 8b 84 24 28 05 00 00 48 8b 15 4c 19 15 00 48 89 14 24 48 89 44 24 08}  //weight: 1, accuracy: Low
     condition:
         (filesize < 20MB) and
         (all of ($x*))
