@@ -30,6 +30,7 @@ as_number,rir,domain,cc,asname
 26173,lacnic,wirelesscuracao.com,CW,King's_Cross_N.V.
 26561,arin,mylir.co.uk,GB,NETRIDGE
 26701,arin,ncryptd.net,GB,AADS
+26833,arin,quarterhill.com,US,ETCC
 27463,arin,globaltelehost.com,CA,AS-GLOBALTELEHOST
 30490,arin,ethr.net,US,ETHRN
 31561,ripencc,pitline.net,UA,NINE-IX
@@ -123,6 +124,7 @@ as_number,rir,domain,cc,asname
 62864,arin,netinnovation.net,JP,NILAS
 63023,arin,globaltelehost.com,CA,AS-GLOBALTELEHOST
 63881,apnic,medianetdigital.co,ID,MDI-AS-ID
+131388,apnic,hts.vn,VN,HTS-AS-VN
 131750,apnic,sufia.tv,ID,SUFIANET-AS-ID
 131831,apnic,nexon.co.kr,KR,NEXONKOREA-AS-KR
 132574,arin,alphainfolab.com,IN,AI-1720-132574
@@ -200,6 +202,7 @@ as_number,rir,domain,cc,asname
 154177,apnic,kaopuyun.com,CN,LIGHT4-AS-AP
 154206,apnic,cloudie.hk,HK,CDN1COM-AS-AP
 197170,ripencc,hostslick.de,DE,TECHTIES-AS
+197176,ripencc,kyliecdn,CN,KylieCDN-AS
 197450,ripencc,sunucun.com.tr,TR,SUNUCUN
 197555,ripencc,smartmieten.in,IN,SMARTMIETEN
 197769,ripencc,vpsdedicated.net,US,VPSDEDICATED-AS
@@ -229,6 +232,7 @@ as_number,rir,domain,cc,asname
 201836,ripencc,garant-plus-inform,UA,GARANT-AS
 202144,ripencc,chempir,UA,CHEMPIR-AS
 202171,ripencc,torero,UA,TORERO-AS
+202226,ripencc,flowerproxy.com,IL,GreatFlower
 202267,ripencc,dobrosvitkredo,UA,DOBROSVIT-AS
 202302,ripencc,s-host.com.ua,UA,NETH-AS
 202306,ripencc,hostglobal.plus,RU,HOSTGLOBALPLUS-AS
@@ -264,7 +268,7 @@ as_number,rir,domain,cc,asname
 206005,ripencc,kontrast.md,MD,Contrust-Solutions
 206127,ripencc,kontrast.md,MD,Contrust-Solutions
 206305,ripencc,kontrast.md,MD,Contrust-Solutions
-206340,ripencc,kontrast.md,MD,Contrust-Solutions
+206340,ripencc,kontrast.md,MD,AMPERAURA-AS
 206413,ripencc,kontrast.md,MD,Contrust-Solutions
 206535,ripencc,kontrast.md,MD,Contrust-Solutions
 206560,ripencc,kontrast.md,MD,Contrust-Solutions
@@ -302,6 +306,7 @@ as_number,rir,domain,cc,asname
 209889,ripencc,kontrast.md,MD,Contrust-Solutions
 209896,ripencc,kontrast.md,MD,LexistarAllianceLTD
 209944,ripencc,kontrast.md,MD,EJX
+209946,ripencc,altawk.com,UA,ALINDA-AS
 209961,ripencc,kontrast.md,MD,Contrust-Solutions
 209963,ripencc,kontrast.md,MD,Contrust-Solutions
 209982,ripencc,kontrast.md,MD,Contrust-Solutions
@@ -357,6 +362,7 @@ as_number,rir,domain,cc,asname
 213753,ripencc,serverion.com,NL,interedge
 213790,ripencc,btcloud.ro,GB,LimitedNetwork-AS
 213791,ripencc,xeniahosting.com,IT,XeniaHosting
+213832,ripencc,netiface.co.uk,GB,LAYERSENTRY-AS
 213897,ripencc,bubblesalter,BE,BUBBLES-AS
 213921,ripencc,davidascottmotorsltd,GB,DA-MOTORS-AS
 213995,ripencc,frostyhosting,RU,FROSTYHOSTING-AS
