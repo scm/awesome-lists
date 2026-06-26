@@ -1837,6 +1837,27 @@ rule Trojan_Win32_Androm_BAS_2147968000_1
         threshold = "2"
         strings_accuracy = "Low"
     strings:
+        $x_2_1 = {2b f8 31 3b 83 c6 04 83 c3 04 3b 75 ?? 72}  //weight: 2, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_Androm_BAS_2147968000_2
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/Androm.BAS!MTB"
+        threat_id = "2147968000"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "Androm"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "2"
+        strings_accuracy = "Low"
+    strings:
         $x_2_1 = {2b f8 31 3e 83 c3 04 83 c6 04 3b 5d ?? 0f 82}  //weight: 2, accuracy: Low
     condition:
         (filesize < 20MB) and
@@ -1923,6 +1944,54 @@ rule Trojan_Win32_Androm_PGAR_2147971169_0
         strings_accuracy = "Low"
     strings:
         $x_5_1 = {03 fe 03 f8 81 ef 12 16 05 00 6a 00 e8 [0-47] 2b f8 31 3b 83 c6 04 83 c3 04 3b 75 d0 72}  //weight: 5, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_Androm_NWD_2147972466_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/Androm.NWD!MTB"
+        threat_id = "2147972466"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "Androm"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "5"
+        strings_accuracy = "High"
+    strings:
+        $x_2_1 = "E:\\malbomb\\Release\\malbomb.pdb" ascii //weight: 2
+        $x_1_2 = "DownloadURL:" ascii //weight: 1
+        $x_2_3 = {c1 fa 05 8b c2 c1 e8 1f 03 c2 0f be c0 6b c0 3a 2a c8 80 c1 35 30 0e}  //weight: 2, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_Androm_MCD_2147972468_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/Androm.MCD!MTB"
+        threat_id = "2147972468"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "Androm"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "10"
+        strings_accuracy = "High"
+    strings:
+        $x_2_1 = "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Associations" ascii //weight: 2
+        $x_2_2 = ".exe;.bat;.reg;.vbs;" ascii //weight: 2
+        $x_2_3 = "LowRiskFileTypes" ascii //weight: 2
+        $x_2_4 = "1806" ascii //weight: 2
+        $x_2_5 = "Internet Settings\\Zones\\0" ascii //weight: 2
     condition:
         (filesize < 20MB) and
         (all of ($x*))
