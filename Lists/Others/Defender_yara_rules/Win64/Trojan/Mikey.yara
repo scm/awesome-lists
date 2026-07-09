@@ -1671,6 +1671,27 @@ rule Trojan_Win64_Mikey_ARR_2147957636_0
         info = "MTB: Microsoft Threat Behavior"
         signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
         threshold = "20"
+        strings_accuracy = "High"
+    strings:
+        $x_20_1 = {41 0f b6 c9 41 32 0c 02 88 08 48 8d 40 01 48 83 ea}  //weight: 20, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_Mikey_ARR_2147957636_1
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Mikey.ARR!MTB"
+        threat_id = "2147957636"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Mikey"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "20"
         strings_accuracy = "Low"
     strings:
         $x_9_1 = {0f 57 c2 48 8d 04 0e 0f 57 ca f3 0f 7f 41 b0 f3 0f 6f 44 0f d0 f3 0f 7f 49 c0 0f 57 c2 f3 0f 6f 4c 0f}  //weight: 9, accuracy: High
@@ -1680,7 +1701,7 @@ rule Trojan_Win64_Mikey_ARR_2147957636_0
         (all of ($x*))
 }
 
-rule Trojan_Win64_Mikey_ARR_2147957636_1
+rule Trojan_Win64_Mikey_ARR_2147957636_2
 {
     meta:
         author = "defender2yara"
@@ -2629,6 +2650,29 @@ rule Trojan_Win64_Mikey_LRI_2147972421_0
     strings:
         $x_20_1 = {0f b6 4c 24 30 48 8d 40 01 0f b6 54 24 67 32 d1 41 0f b6 cb 41 32 4c 02 ff 88 48 ff 88 54 24 4c 0f b6 4c 24 4c fe c1 88 4c 24 30 49 83 e8 01}  //weight: 20, accuracy: High
         $x_10_2 = {88 8c 24 8f 00 00 00 c7 84 24 e0 02 00 00 31 55 a4 30 8b 94 24 e0 02 00 00 8b 8c 24 e0 02 00 00 c1 e1 05 c1 ea 1b 0b ca 49 8b d6 89 8c 24 e0 02 00 00 8b 8c 24 e0 02 00 00 81 f1 77 f3 c0 cd 89 8c 24 e0 02 00 00 8b 84 24 e0 02 00 00 0f b6 44 24 68 fe c0}  //weight: 10, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_Mikey_SNO_2147973220_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Mikey.SNO!MTB"
+        threat_id = "2147973220"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Mikey"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "5"
+        strings_accuracy = "High"
+    strings:
+        $x_2_1 = {0f b6 04 24 48 8d 52 01 0f b6 4c 24 24 80 e9 1a 32 c8 41 0f b6 c1 32 44 1a ff 88 42 ff 88 0c 24 0f b6 04 24 fe c0 88 04 24 49 83 e8 01 75 d1 0f b6 84 24 af 00 00 00 48 f7 d7 34 f1 48 c1 cd 3f 48 2b fd 49 c1 ce 2b 88 84 24 af 00 00 00 48 b9 62 f9 db bb f4 45 45 1c 41 c6 04 32 00 49 8d 04 3e 49 03 c7 48 3b c1 74 0d}  //weight: 2, accuracy: High
+        $x_2_2 = {88 84 0c 40 03 00 00 b8 01 00 00 00 48 6b c0 00 8a 84 04 b0 0a 00 00 fe c0 b9 01 00 00 00 48 6b c9 00 88 84 0c b0 0a 00 00 c6 84 24 88 00 00 00 e3 c6 84 24 89 00 00 00 ff}  //weight: 2, accuracy: High
+        $x_1_3 = "CallNtPowerInformation" ascii //weight: 1
     condition:
         (filesize < 20MB) and
         (all of ($x*))

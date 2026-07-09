@@ -3319,6 +3319,31 @@ rule Trojan_Win64_Tedy_BAB_2147956902_1
         (all of ($x*))
 }
 
+rule Trojan_Win64_Tedy_BAB_2147956902_2
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Tedy.BAB!MTB"
+        threat_id = "2147956902"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Tedy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "5"
+        strings_accuracy = "High"
+    strings:
+        $x_1_1 = "A9Awtmet2DxcfoMShSMxxkstjU5" ascii //weight: 1
+        $x_1_2 = "AKO46LOK06Z2TWzn681BytoUTg2" ascii //weight: 1
+        $x_1_3 = "AQPKuE0hKWHK0IxsBqbdBHGNk" ascii //weight: 1
+        $x_1_4 = "DllRegisterServer" ascii //weight: 1
+        $x_1_5 = "MzYdwDxGjj" ascii //weight: 1
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
 rule Trojan_Win64_Tedy_MKE_2147957103_0
 {
     meta:
@@ -7045,12 +7070,37 @@ rule Trojan_Win64_Tedy_GMF_2147973024_0
         (all of ($x*))
 }
 
-rule Trojan_Win64_Tedy_SNM_2147973185_0
+rule Trojan_Win64_Tedy_YDQ_2147973218_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Tedy.YDQ!MTB"
+        threat_id = "2147973218"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Tedy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "1"
+        strings_accuracy = "Low"
+    strings:
+        $x_1_1 = {48 89 c7 48 c7 40 10 00 bc 0d 00 ff 15 ?? ?? ?? ?? 48 b9 cf 3a d5 ab 85 f3 01 b8 48 31 c1 48 89 4f 08 48 31 f1 48 89 0f}  //weight: 1, accuracy: Low
+        $x_1_2 = {48 89 c7 48 c7 40 10 00 bc 0d 00 ff 15 ?? ?? ?? ?? 48 b9 7a ef f3 9a 17 98 df 37 48 31 c1 48 89 4f 08 48 31 f1 48 89 0f}  //weight: 1, accuracy: Low
+        $x_1_3 = {48 89 c7 48 c7 40 10 00 bc 0d 00 ff 15 ?? ?? ?? ?? 48 b9 ae d6 90 8d 39 20 7e d6 48 31 c1 48 89 4f 08 48 31 f1 48 89 0f}  //weight: 1, accuracy: Low
+        $x_1_4 = {48 89 c7 48 c7 40 10 00 bc 0d 00 ff 15 ?? ?? ?? ?? 48 b9 96 d5 32 6f 72 30 f5 60 48 31 c1 48 89 4f 08 48 31 f1 48 89 0f}  //weight: 1, accuracy: Low
+        $x_1_5 = {48 89 c7 48 c7 40 10 00 bc 0d 00 ff 15 ?? ?? ?? ?? 48 b9 97 ee 47 74 6e 28 62 3d 48 31 c1 48 89 4f 08 48 31 f1 48 89 0f}  //weight: 1, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (1 of ($x*))
+}
+
+rule Trojan_Win64_Tedy_SNM_2147973219_0
 {
     meta:
         author = "defender2yara"
         detection_name = "Trojan:Win64/Tedy.SNM!MTB"
-        threat_id = "2147973185"
+        threat_id = "2147973219"
         type = "Trojan"
         platform = "Win64: Windows 64-bit platform"
         family = "Tedy"
@@ -7071,12 +7121,33 @@ rule Trojan_Win64_Tedy_SNM_2147973185_0
         (all of ($x*))
 }
 
-rule Trojan_Win64_Tedy_AHV_2147973205_0
+rule Trojan_Win64_Tedy_CAN_2147973234_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Tedy.CAN!MTB"
+        threat_id = "2147973234"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Tedy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "10"
+        strings_accuracy = "Low"
+    strings:
+        $x_10_1 = {4c 89 cf 49 29 d1 45 31 c1 48 89 ca 48 c1 e1 ?? 48 29 d1 44 31 c9 88 0c 16 48 89 d1}  //weight: 10, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_Tedy_AHV_2147973252_0
 {
     meta:
         author = "defender2yara"
         detection_name = "Trojan:Win64/Tedy.AHV!MTB"
-        threat_id = "2147973205"
+        threat_id = "2147973252"
         type = "Trojan"
         platform = "Win64: Windows 64-bit platform"
         family = "Tedy"
