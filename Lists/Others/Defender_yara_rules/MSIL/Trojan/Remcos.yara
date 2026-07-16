@@ -15010,12 +15010,12 @@ rule Trojan_MSIL_Remcos_RVK_2147972702_0
         (all of ($x*))
 }
 
-rule Trojan_MSIL_Remcos_RVL_2147973451_0
+rule Trojan_MSIL_Remcos_RVL_2147973462_0
 {
     meta:
         author = "defender2yara"
         detection_name = "Trojan:MSIL/Remcos.RVL!MTB"
-        threat_id = "2147973451"
+        threat_id = "2147973462"
         type = "Trojan"
         platform = "MSIL: .NET intermediate language scripts"
         family = "Remcos"
@@ -15031,12 +15031,12 @@ rule Trojan_MSIL_Remcos_RVL_2147973451_0
         (all of ($x*))
 }
 
-rule Trojan_MSIL_Remcos_PTR_2147973523_0
+rule Trojan_MSIL_Remcos_PTR_2147973535_0
 {
     meta:
         author = "defender2yara"
         detection_name = "Trojan:MSIL/Remcos.PTR!MTB"
-        threat_id = "2147973523"
+        threat_id = "2147973535"
         type = "Trojan"
         platform = "MSIL: .NET intermediate language scripts"
         family = "Remcos"
@@ -15054,12 +15054,12 @@ rule Trojan_MSIL_Remcos_PTR_2147973523_0
         (all of ($x*))
 }
 
-rule Trojan_MSIL_Remcos_PZR_2147973524_0
+rule Trojan_MSIL_Remcos_PZR_2147973536_0
 {
     meta:
         author = "defender2yara"
         detection_name = "Trojan:MSIL/Remcos.PZR!MTB"
-        threat_id = "2147973524"
+        threat_id = "2147973536"
         type = "Trojan"
         platform = "MSIL: .NET intermediate language scripts"
         family = "Remcos"
@@ -15077,12 +15077,12 @@ rule Trojan_MSIL_Remcos_PZR_2147973524_0
         (all of ($x*))
 }
 
-rule Trojan_MSIL_Remcos_SX_2147973607_0
+rule Trojan_MSIL_Remcos_SX_2147973619_0
 {
     meta:
         author = "defender2yara"
         detection_name = "Trojan:MSIL/Remcos.SX!MTB"
-        threat_id = "2147973607"
+        threat_id = "2147973619"
         type = "Trojan"
         platform = "MSIL: .NET intermediate language scripts"
         family = "Remcos"
