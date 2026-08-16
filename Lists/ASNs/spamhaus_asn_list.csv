@@ -19,6 +19,7 @@ as_number,rir,domain,cc,asname
 17447,apnic,net4india.com,IN,NET4-IN
 17612,apnic,rinnai.co.kr,KR,RINNAI-AS-KR
 17994,apnic,appserv.co.nz,NZ,SPARK-AS-AP
+18526,arin,ddps.jp,JP,DDPS
 20724,ripencc,globaltelehost.com,CA,GLOBALTELEHOST
 23865,apnic,netinnovation.net,JP,NETINNOVATIONLLC-AS-AP
 24426,apnic,myce.net.cn,CN,CNNIC-SINO-I
@@ -26,6 +27,7 @@ as_number,rir,domain,cc,asname
 24567,apnic,qtcloud.co.jp,JP,QTINC-AS-AP
 25288,ripencc,bignet.ua,UA,LIR-UKRAINE-AS
 25862,arin,cloudie.hk,HK,ISNX
+26132,arin,ddps.jp,JP,DDPS
 26173,lacnic,wirelesscuracao.com,CW,King's_Cross_N.V.
 26561,arin,mylir.co.uk,GB,NETRIDGE
 26833,arin,quarterhill.com,US,ETCC
@@ -283,6 +285,7 @@ as_number,rir,domain,cc,asname
 206744,ripencc,kontrast.md,MD,Contrust-Solutions
 206750,ripencc,kontrast.md,MD,Contrust-Solutions
 206831,ripencc,thomas.dubois,FR,THOMASDUBOIS
+207043,ripencc,dedik.io,LV,DEDIK-IO
 207088,ripencc,adoard.com,RO,ADOARD
 207184,ripencc,dolphinhost.net,GB,TELCHAK-AS
 207566,ripencc,changway.hk,HK,LD007-AS
@@ -300,6 +303,7 @@ as_number,rir,domain,cc,asname
 209373,ripencc,swissnetwork.io,IR,SWISSNET-AS
 209375,ripencc,kontrast.md,MD,Contrust-Solutions
 209396,ripencc,kontrast.md,MD,Contrust-Solutions
+209413,ripencc,dedik.io,LV,DEDIK-CH
 209425,ripencc,lordvps.net,IR,KOI-AS
 209605,ripencc,serveroffer.lt,LT,hostbaltic
 209847,ripencc,stark-industries.solutions,MD,THE
@@ -372,7 +376,6 @@ as_number,rir,domain,cc,asname
 214576,ripencc,berdiev-ruslan-mukhabatovich,RU,BRM5-AS
 214717,ripencc,dolphinhost.net,GB,DOLPHINHOST-AS
 214927,ripencc,psb.hosting,RU,PSB-AS
-214940,ripencc,virtualine.org,GB,KPRONET
 215117,ripencc,hosterdaddy.com,IN,HOSTERDADDY
 215136,ripencc,ryzehosting.com,AT,Ryzehosting
 215183,ripencc,vaultdweller.net,EE,zhaikov-as
