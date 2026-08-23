@@ -2,6 +2,7 @@ as_number,rir,domain,cc,asname
 245,arin,planningresearchcorp.com,US,PRC-AS
 2601,ripencc,pitline.net,UA,RADIOLINK-AS
 2702,arin,novx-systems,US,INTERSERVE
+3507,arin,ipswat.com,US,IPSWAT_TEAM
 3563,arin,pilot.net,US,PILOT-ASN
 5065,arin,bunnycommunications.com,US,BUNNY-COMMUNICATIONS-GLOBAL
 6060,arin,management-alliance-group,US,MAGI-NET-GW
@@ -14,6 +15,7 @@ as_number,rir,domain,cc,asname
 8129,arin,caiwireless.net,US,CAIWIRELESS
 8649,ripencc,zexotek.de,DE,Webtraffic
 9164,ripencc,bignet.ua,UA,R-TEL-AS
+11527,arin,xproxies.com,US,NOVABROADBAND
 13875,arin,mxfiber.com,HK,AS13875-MX-FIBER
 14576,arin,king-servers.com,US,HOSTING-SOLUTIONS
 17447,apnic,net4india.com,IN,NET4-IN
@@ -392,9 +394,12 @@ as_number,rir,domain,cc,asname
 215765,ripencc,pitline.net,UA,RADIO-LINK-SMART
 215925,ripencc,vpsvault.host,GB,VPSVAULTHOST
 215930,ripencc,almaseabi.net,IR,COD
+216078,ripencc,snowcore.io,GB,KREMER-AS
 216127,ripencc,nuxt.cloud,RU,NUXT-AS
 216246,ripencc,aeza.net,RU,RU-AEZA-AS
 216475,ripencc,nktele.com,RU,nktelecom
+218986,ripencc,snowcore.io,GB,SnowcoreInc
+219067,ripencc,eggywall.org,IT,CHIARA-AS
 219326,ripencc,sulavi.co.uk,GB,SULAVIL
 219502,ripencc,stormindustries.llc,US,STORMCLOUD-AS
 266702,lacnic,nodonorte.net.ar,AR,MEGALINK_S.R.L.
@@ -406,6 +411,8 @@ as_number,rir,domain,cc,asname
 328958,afrinic,cybrscrb.com,SC,CL21-AS
 329007,afrinic,elende.ao,AO,ELENDE
 329325,afrinic,maxko.org,HR,Maxko-for-Gaming-Development
+394082,arin,ipswat.com,US,GOOGLE-PEER
+397881,arin,ipswat.com,US,STINGERS
 398638,arin,jellydigital.net,US,JELLYDIGITAL
 398741,arin,62yun.com,RU,AS-VERTEXLINK-01
 399073,arin,bunnycommunications.com,US,TBB-ASN
@@ -413,9 +420,11 @@ as_number,rir,domain,cc,asname
 399979,arin,493networking.cc,US,AS-493NETWORKING
 400018,arin,seacom.cc,US,CLOUD
 400171,arin,alphainfolab.com,IN,AS-AINFO
+400177,arin,ipswat.com,US,RC
 400328,arin,pfcloud.io,DE,INTELLIGENCE
 400377,arin,serverion.com,NL,CUSTOMER
 400506,arin,blackappleus.com,US,BAIAS
+400522,arin,ipswat.com,US,ROOTCLOUD
 400641,arin,ipv4holdings.net,US,IPV4HOLDINGS
 400992,arin,62yun.com,RU,ZHOUYISAT-COMMUNICATIONS
 401109,arin,zhongguancun.asia,US,ZHONGGUANCUN-CO
@@ -428,3 +437,4 @@ as_number,rir,domain,cc,asname
 401701,arin,cognetcloud.com,HK,COGNETCLOUD-2
 402075,arin,securecommsgroup.xyz,US,PEEKABO
 402253,arin,skntelecom.com,KN,SKN-NETWORK-1
+402647,arin,ipswat.com,US,NETRONEX_SOLUTIONS
