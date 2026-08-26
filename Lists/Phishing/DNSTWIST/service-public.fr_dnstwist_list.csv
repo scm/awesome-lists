@@ -28,7 +28,7 @@ addition,service-publico.fr,,,,
 addition,service-publicp.fr,,,,
 addition,service-publicq.fr,,,,
 addition,service-publicr.fr,,,,
-addition,service-publics.fr,104.247.81.99,!ServFail,mail.h-email.net,ns1.parkingcrew.net
+addition,service-publics.fr,104.247.81.99,,mail.h-email.net,ns1.parkingcrew.net
 addition,service-publict.fr,,,,
 addition,service-publicu.fr,,,,
 addition,service-publicv.fr,,,,
@@ -351,7 +351,7 @@ homoglyph,xn--servce-publc-2fbu.fr,,,,
 homoglyph,xn--servce-publc-8fbh.fr,,,,
 homoglyph,xn--servce-publc-8fbv.fr,,,,
 homoglyph,xn--servce-publc-ggbg.fr,,,,
-homoglyph,xn--servce-publc-ifb3c.fr,,,,!ServFail
+homoglyph,xn--servce-publc-ifb3c.fr,,,,
 homoglyph,xn--servce-publc-ifb9a.fr,,,,
 homoglyph,xn--servce-publc-ifbh.fr,,,,
 homoglyph,xn--servce-publc-ifbv.fr,,,,
@@ -909,9 +909,9 @@ omission,service-publc.fr,,,,
 omission,service-publi.fr,,,,
 omission,service-pulic.fr,,,,
 omission,service-ublic.fr,,,,
-omission,servie-public.fr,,,,
-omission,sevice-public.fr,!ServFail,,mail.h-email.net,ns1.parkingcrew.net
 omission,servicepublic.fr,160.92.166.94,,mailhost.axime.com,ns1.dila.fr
+omission,servie-public.fr,,,,
+omission,sevice-public.fr,104.247.81.99,,mail.h-email.net,ns1.parkingcrew.net
 omission,srvice-public.fr,,,,
 plural,sersvice-public.fr,,,,
 plural,service-psublic.fr,,,,
@@ -978,7 +978,7 @@ replacement,servicw-public.fr,,,,
 replacement,servicz-public.fr,,,,
 replacement,servide-public.fr,,,,
 replacement,servife-public.fr,,,,
-replacement,servive-public.fr,,!ServFail,!ServFail,ns1.dila.fr
+replacement,servive-public.fr,!ServFail,!ServFail,,!ServFail
 replacement,servixe-public.fr,,,,
 replacement,servjce-public.fr,,,,
 replacement,servoce-public.fr,,,,
