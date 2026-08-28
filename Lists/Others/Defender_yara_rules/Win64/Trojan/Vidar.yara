@@ -2345,6 +2345,28 @@ rule Trojan_Win64_Vidar_LR_2147965173_0
         (all of ($x*))
 }
 
+rule Trojan_Win64_Vidar_LR_2147965173_1
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Vidar.LR!MTB"
+        threat_id = "2147965173"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Vidar"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "30"
+        strings_accuracy = "Low"
+    strings:
+        $x_20_1 = {41 8b d0 81 f2 c2 00 00 00 42 88 54 04 20 41 ff c0 41 83 f8 0f 7c ?? b8 ba 95 51 f7 ba 04 00 00 00 48 89 84 24 98 00 00 00 48 c7 84 24 d0 00 00 00 5b 71 dd 02}  //weight: 20, accuracy: Low
+        $x_10_2 = {48 8b 84 24 d0 00 00 00 48 ff ca 48 8b ca 48 81 f1 b3 3b 3c 7a 48 2b c1 48 89 84 24 d0 00 00 00 48 8d 8a ba 45 21 3d 48 8b 84 24 d0 00 00 00 48 33 c8 48 89 8c 24 d0 00 00 00 48 85 d2}  //weight: 10, accuracy: High
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
 rule Trojan_Win64_Vidar_SG_2147965387_0
 {
     meta:
@@ -4124,6 +4146,30 @@ rule Trojan_Win64_Vidar_NX_2147977046_0
         $x_1_6 = "[reg_vals] FAIL" ascii //weight: 1
         $x_1_7 = "SystemManufacturer = QEMU" ascii //weight: 1
         $x_1_8 = "[smbios] FAIL" ascii //weight: 1
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_Vidar_ND_2147977138_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Vidar.ND!MTB"
+        threat_id = "2147977138"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Vidar"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "6"
+        strings_accuracy = "High"
+    strings:
+        $x_2_1 = {48 f7 ef 48 01 fa 48 c1 fa 06 4c 29 ca 48 6b d2 61 49 89 f9 48 29 d7 31 f7 48 89 ca 48 c1 e1 05 48 29 d1 31 f9 41 88 0c 10 48 89 d1}  //weight: 2, accuracy: High
+        $x_2_2 = {0f b6 34 01 31 d6 31 ce 40 88 34 08 48 ff c1}  //weight: 2, accuracy: High
+        $x_1_3 = "VirtualAllocinvalid slothost is downill" ascii //weight: 1
+        $x_1_4 = "TERMbindsync" ascii //weight: 1
     condition:
         (filesize < 20MB) and
         (all of ($x*))
