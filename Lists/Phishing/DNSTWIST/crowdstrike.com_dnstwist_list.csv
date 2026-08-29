@@ -65,7 +65,7 @@ bitsquatting,crowdstrhke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.clou
 bitsquatting,crowdstrice.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 bitsquatting,crowdstriie.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 bitsquatting,crowdstrije.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
-bitsquatting,crowdstrika.com,,,,eric.ns.cloudflare.com
+bitsquatting,crowdstrika.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 bitsquatting,crowdstrikd.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 bitsquatting,crowdstrikg.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 bitsquatting,crowdstrikm.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
@@ -94,8 +94,6 @@ homoglyph,cr0vvdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,evangeline.ns.
 homoglyph,cr0wbstrike.com,,,,
 homoglyph,cr0wclstrike.com,,,,
 homoglyph,cr0wdlstrike.com,,,,
-homoglyph,crovvclstrike.com,,,,
-homoglyph,crovvdstrike.com,15.197.148.33,,mailstore1.secureserver.net,ns69.domaincontrol.com
 homoglyph,cr0wdstr1ke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 homoglyph,cr0wdstrikc.com,,,,
 homoglyph,cr0wdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
@@ -105,7 +103,9 @@ homoglyph,crouudstrike.com,,,,
 homoglyph,crouvdstrike.com,,,,
 homoglyph,crovudstrike.com,,,,
 homoglyph,crovvbstrike.com,,,,
+homoglyph,crovvclstrike.com,,,,
 homoglyph,crovvdlstrike.com,,,,
+homoglyph,crovvdstrike.com,15.197.148.33,,mailstore1.secureserver.net,ns69.domaincontrol.com
 homoglyph,crovvdstr1ke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 homoglyph,crovvdstrikc.com,,,,
 homoglyph,crovvdstrilce.com,,,,
@@ -7679,7 +7679,7 @@ insertion,crowdstrioke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudf
 insertion,crowdstriuke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 insertion,crowdstrjike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 insertion,crowdstrkike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
-insertion,crowdstroike.com,,,,eric.ns.cloudflare.com
+insertion,crowdstroike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 insertion,crowdstrrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 insertion,crowdstrtike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 insertion,crowdstruike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
@@ -7729,7 +7729,6 @@ repetition,ccrowdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloud
 repetition,croowdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 repetition,crowwdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 repetition,crrowdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
-replacement,crowdatrike.com,,,,
 replacement,crowdstroke.com,15.197.225.128,,,ns15.domaincontrol.com
 replacement,c4owdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,c5owdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
@@ -7745,6 +7744,7 @@ replacement,croadstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloud
 replacement,croedstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,croqdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowcstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
+replacement,crowdatrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowddtrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdetrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowds5rike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
@@ -7762,7 +7762,7 @@ replacement,crowdstr9ke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloud
 replacement,crowdstrik3.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdstrik4.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdstrikr.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
-replacement,crowdstriks.com,,,,
+replacement,crowdstriks.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdstrikw.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdstrikz.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdstrile.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
@@ -7771,7 +7771,7 @@ replacement,crowdstrjke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloud
 replacement,crowdstruke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdsttike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdsyrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
-replacement,crowdszrike.com,,,,
+replacement,crowdszrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdxtrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdytrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 replacement,crowdztrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
@@ -7788,14 +7788,14 @@ replacement,xrowdstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloud
 subdomain,c.rowdstrike.com,,,,
 subdomain,cr.owdstrike.com,,,,
 subdomain,cro.wdstrike.com,,,,
+subdomain,crowd.strike.com,,,,
 subdomain,crowdst.rike.com,!ServFail,!ServFail,,!ServFail
 subdomain,crow.dstrike.com,13.223.25.84,2600:1f18:4ae:c605:dd5d:b838:5816:d7fb,,nsg1.namebrightdns.com
-subdomain,crowd.strike.com,,,,
 subdomain,crowds.trike.com,64.190.63.222,,localhost,ns1.sedoparking.com
 subdomain,crowdstr.ike.com,,,,
 subdomain,crowdstri.ke.com,,,,
 transposition,crowdstriek.com,104.21.44.190,2606:4700:3031::ac43:cb3c,,eric.ns.cloudflare.com
-transposition,corwdstrike.com,,,,eric.ns.cloudflare.com
+transposition,corwdstrike.com,,!ServFail,,
 transposition,crodwstrike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 transposition,crowdsrtike.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
 transposition,crowdstirke.com,,,inbound-smtp.us-east-1.amazonaws.com,eric.ns.cloudflare.com
