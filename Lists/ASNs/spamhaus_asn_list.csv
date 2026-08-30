@@ -38,6 +38,7 @@ as_number,rir,domain,cc,asname
 31561,ripencc,pitline.net,UA,NINE-IX
 33042,arin,netiface.co.uk,GB,NETIFACE-TORONTO
 33993,ripencc,stark-industries.solutions,MD,UFO-AS
+34450,ripencc,net-gate.ro,RO,WDC-AS
 34985,apnic,netinnovation.net,JP,NETINNOVATIONLLC-AS-AP
 35478,ripencc,bunea.eu,RO,DATACENTER
 35624,ripencc,fineproxy.org,RU,SILVERSTAR-AS
@@ -115,7 +116,6 @@ as_number,rir,domain,cc,asname
 59651,ripencc,fineproxy.org,RU,AS-QualityNetwork
 59683,ripencc,vip-net.net,RU,iridatelecom
 60842,ripencc,62yun.com,RU,HUIZE-HOLDINGS-AS
-60974,ripencc,naicoms.com,BG,Naicoms
 61003,ripencc,globaltelehost.com,CA,GLOBALTELEHOST
 61432,ripencc,link-host.com,UA,VAIZ-AS
 61879,lacnic,aleducacional.com.br,BR,América_Latina_Educacional_Adm._e_Serviços_LTDA
@@ -219,14 +219,15 @@ as_number,rir,domain,cc,asname
 199420,ripencc,fly-group.ru,RU,FLYGROUP-AS
 199428,ripencc,03ai.org,GB,AlvaroNavas
 199467,ripencc,swissnetwork.io,IR,Hossein_Zangooei
-199639,ripencc,03ai.org,GB,Matej
 200010,ripencc,cantech.international,US,OLFE
 200051,ripencc,kyonix.com,RU,VPSLab-Networks
 200130,ripencc,ryzehosting.com,AT,SIMON-MARIACHER
 200373,ripencc,plainproxies.com,DE,Drei-K-Tech-GmbH
 200499,ripencc,enterprises-holding,GB,EHL-AS
 200593,ripencc,pro-spero.ru,RU,PROSPERO-AS
+200671,ripencc,start-building,GB,START-AS
 200699,ripencc,xor.sc,SC,DATASHIELD_NL
+200912,ripencc,hypernex.cc,DE,KRAUSE-AS
 201249,ripencc,iprowireless.com,AL,IPRO
 201292,ripencc,agrofirma-aleks,UA,AS-AGRO
 201380,ripencc,excitedmatch.com,UA,ALFABISNES-AS
@@ -286,7 +287,6 @@ as_number,rir,domain,cc,asname
 206728,ripencc,sshvps.net,RU,MEDIALAND-AS
 206744,ripencc,kontrast.md,MD,Contrust-Solutions
 206750,ripencc,kontrast.md,MD,Contrust-Solutions
-206831,ripencc,thomas.dubois,FR,THOMASDUBOIS
 207043,ripencc,dedik.io,LV,DEDIK-IO
 207088,ripencc,adoard.com,RO,ADOARD
 207184,ripencc,dolphinhost.net,GB,TELCHAK-AS
@@ -295,6 +295,7 @@ as_number,rir,domain,cc,asname
 207957,ripencc,serv.host,UA,ServHost-AS
 207986,ripencc,ozon.ru,RU,OZON-BANK-AS
 208137,ripencc,feoprest.info,RO,FPS12
+208185,ripencc,net-gate.ro,RO,NETGATE-SOLUTION-AS
 208198,ripencc,eksenbilisim.com.tr,TR,Eylul-NET
 208241,ripencc,pitline.net,UA,RADIO-LINK-PLUS
 208317,ripencc,kontrast.md,MD,Contrust-Solutions
@@ -323,6 +324,7 @@ as_number,rir,domain,cc,asname
 210316,ripencc,elekoms.net.ua,UA,ELEKOMS-AS
 210457,ripencc,kyonix.com,RU,KYONIX
 210530,ripencc,ipconnect.services,SC,ip2con
+210546,ripencc,chosting.solutions,UA,CHSL-ONE
 210558,ripencc,as210558.net,DE,services-1337-gmbh
 210644,ripencc,aeza.net,RU,AEZA-AS
 210654,ripencc,serverion.com,NL,CUSTOMER-AS
@@ -330,7 +332,6 @@ as_number,rir,domain,cc,asname
 210705,ripencc,rapidoserver.com,IR,RapidoServer
 210707,ripencc,dadeh-pardazesh-boroumand-kerman,IR,Company
 210714,ripencc,eksenbilisim.com.tr,TR,WORLD-NET-ISP-Provider
-210756,ripencc,62yun.com,RU,EdgeCenterLLC
 210848,ripencc,server-panel.org,SC,TK-NET
 210950,ripencc,erishennya,UA,ERISHENNYA-ASN
 211066,ripencc,ryzehosting.com,AT,RYZEHOSTING-TRADING
@@ -342,6 +343,7 @@ as_number,rir,domain,cc,asname
 211720,ripencc,xor.sc,SC,DATASHIELD_CH
 211736,ripencc,pwnhost.com,UA,FDN3
 211762,ripencc,fineproxy.org,RU,REGION40
+211860,ripencc,vpsdedic.ru,RU,VPSDEDIC-AS
 211922,ripencc,ipconnect.services,SC,IPDISTR
 211955,ripencc,notbad.cloud,RU,NOTBADHOSTING
 212017,ripencc,cubilloconstrucciones.com,ES,CUBILLO
@@ -397,6 +399,7 @@ as_number,rir,domain,cc,asname
 216078,ripencc,snowcore.io,GB,KREMER-AS
 216127,ripencc,nuxt.cloud,RU,NUXT-AS
 216246,ripencc,aeza.net,RU,RU-AEZA-AS
+216378,ripencc,net-gate.ro,RO,NETGATE-COMUNICATIONS-AS
 216475,ripencc,nktele.com,RU,nktelecom
 218986,ripencc,snowcore.io,GB,SnowcoreInc
 219067,ripencc,eggywall.org,IT,CHIARA-AS
