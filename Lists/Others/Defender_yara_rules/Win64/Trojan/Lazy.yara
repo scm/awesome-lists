@@ -5882,6 +5882,28 @@ rule Trojan_Win64_Lazy_LR_2147964502_2
         threshold = "30"
         strings_accuracy = "Low"
     strings:
+        $x_20_1 = {80 74 0d b7 a4 48 ff c1 48 3b ce 7c ?? 48 8d 4d b7 ff d0 48 8b d8 48 85 c0}  //weight: 20, accuracy: Low
+        $x_10_2 = {66 83 74 45 c7 39 48 ff c0 49 3b c1 7c ?? c7 45 d7 02 00 29 00 41 b8 0c 00 00 00 c7 45 db 20 00 28 00 48 8b c2 c7 45 df 2f 00 28 00 c7 45 e3 2f 00 26 00 c7 45 e7 0c 00 2e 00 c7 45 eb 25 00 24 00 66 89 55 ef}  //weight: 10, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_Lazy_LR_2147964502_3
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Lazy.LR!MTB"
+        threat_id = "2147964502"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Lazy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "30"
+        strings_accuracy = "Low"
+    strings:
         $x_20_1 = {4c 89 c0 4d 8b 88 10 01 00 00 4d 85 c9 74 ?? 44 0f b7 40 02 4c 8d 52 01 4c 89 01 4c 89 51 08 48 85 d2 ba 18 01 00 00 41 b8 78 01 00 00 4c 0f 44 c2 4c 89 49 10 ba 08 00 00 00 48 89 c1}  //weight: 20, accuracy: Low
         $x_10_2 = {53 48 81 ec 88 05 00 00 0f 29 b4 24 70 05 00 00 48 8b 01 48 89 44 24 58 48 8b 41 10 48 89 44 24 50 48 8b 41 30 48 89 44 24 68 48 89 4c 24 48 48 8b 41 20 48 89 44 24 60}  //weight: 10, accuracy: High
     condition:
@@ -7570,6 +7592,33 @@ rule Trojan_Win64_Lazy_AA_2147977614_0
         $x_30_1 = "This program must be run as Administrator to decrypt Chrome data." ascii //weight: 30
         $x_20_2 = "SELECT origin_url, username_value, password_value FROM logins" ascii //weight: 20
         $x_10_3 = "Failed to impersonate lsass for v20" ascii //weight: 10
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win64_Lazy_ZX_2147977859_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win64/Lazy.ZX!MTB"
+        threat_id = "2147977859"
+        type = "Trojan"
+        platform = "Win64: Windows 64-bit platform"
+        family = "Lazy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "8"
+        strings_accuracy = "High"
+    strings:
+        $x_2_1 = {8b c2 41 03 d3 42 0f b6 0c 20 8b c6 48 33 c8 c1 ee 08 0f b6 c1 41 33 74 85 00}  //weight: 2, accuracy: High
+        $x_1_2 = "Local\\FearMtx" ascii //weight: 1
+        $x_1_3 = "Telegram" ascii //weight: 1
+        $x_1_4 = "discord" ascii //weight: 1
+        $x_1_5 = "NSS_Shutdown" ascii //weight: 1
+        $x_1_6 = "PK11_CheckUserPassword" ascii //weight: 1
+        $x_1_7 = "logins.json" ascii //weight: 1
     condition:
         (filesize < 20MB) and
         (all of ($x*))
