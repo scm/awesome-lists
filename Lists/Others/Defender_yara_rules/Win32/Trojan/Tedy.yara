@@ -1818,3 +1818,52 @@ rule Trojan_Win32_Tedy_CH_2147978230_0
         (all of ($x*))
 }
 
+rule Trojan_Win32_Tedy_BV_2147978320_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/Tedy.BV!MTB"
+        threat_id = "2147978320"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "Tedy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "7"
+        strings_accuracy = "High"
+    strings:
+        $x_1_1 = "usually silent inject. off silent, check stub." ascii //weight: 1
+        $x_1_2 = "Silent inject  ok" ascii //weight: 1
+        $x_1_3 = "Silent inject  fail%s%s" ascii //weight: 1
+        $x_1_4 = "priv insn. av inject? add exclusions." ascii //weight: 1
+        $x_1_5 = "bad r/w or silent. off silent/fly/speed" ascii //weight: 1
+        $x_1_6 = "maybe hook recursion. check silent path" ascii //weight: 1
+        $x_1_7 = "killed from taskmgr / another app. reopen" ascii //weight: 1
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_Tedy_C_2147978327_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/Tedy.C!MTB"
+        threat_id = "2147978327"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "Tedy"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "50"
+        strings_accuracy = "Low"
+    strings:
+        $x_30_1 = {29 fd 03 00 91 f3 03 02 2a 68 00 00 f0 02 21 26 11 f5 03 00 2a a8 00 00 ?? 00 01 01 11 f4 03 01}  //weight: 30, accuracy: Low
+        $x_20_2 = {11 f3 03 00 2a a8 00 00 ?? 00 01 01 11 01 b0 00 11 e0 03 00 2a 98 fe ff 97 60 01 00}  //weight: 20, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
