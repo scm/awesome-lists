@@ -16025,3 +16025,51 @@ rule Trojan_Win32_ClickFix_B_2147978915_0
         (all of ($x*))
 }
 
+rule Trojan_Win32_ClickFix_EL_2147978926_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/ClickFix.EL!MTB"
+        threat_id = "2147978926"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "ClickFix"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_CMDHSTR_EXT"
+        threshold = "10"
+        strings_accuracy = "High"
+    strings:
+        $x_3_1 = "n^e^t u^s^e X:" wide //weight: 3
+        $x_3_2 = "rundll32 X:.dll,Entry" wide //weight: 3
+        $x_2_3 = "\\DavWWWRoot\\files" wide //weight: 2
+        $x_2_4 = "persistent:no" wide //weight: 2
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_Win32_ClickFix_RGB_2147978938_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:Win32/ClickFix.RGB"
+        threat_id = "2147978938"
+        type = "Trojan"
+        platform = "Win32: Windows 32-bit platform"
+        family = "ClickFix"
+        severity = "Critical"
+        signature_type = "SIGNATURE_TYPE_CMDHSTR_EXT"
+        threshold = "10"
+        strings_accuracy = "High"
+    strings:
+        $x_2_1 = "/v:on /c" wide //weight: 2
+        $x_2_2 = ".hta" wide //weight: 2
+        $x_2_3 = "-sLko" wide //weight: 2
+        $x_2_4 = "start" wide //weight: 2
+        $x_2_5 = "set" wide //weight: 2
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
