@@ -258,6 +258,28 @@ rule Trojan_MSIL_DonutLoader_AL_2147977512_0
         (all of ($x*))
 }
 
+rule Trojan_MSIL_DonutLoader_AL_2147977512_1
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:MSIL/DonutLoader.AL!MTB"
+        threat_id = "2147977512"
+        type = "Trojan"
+        platform = "MSIL: .NET intermediate language scripts"
+        family = "DonutLoader"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "3"
+        strings_accuracy = "Low"
+    strings:
+        $x_2_1 = {0b 16 13 04 2b 45 16 13 05 11 04 1b 5d 2d 0b 06 11 04 91 1f 11 59 13 05 2b 1e 11 04 1f 0d 5d 2d 0b 06 11 04 91 1f 52 59 13 05 2b 0c 06 11 04 91 20 99 00 00 00 59 13 05 07 11 04 11 05 20 ff 00 00 00 5f d2 9c 11 04 17 58 13 04 11 04 06 8e 69}  //weight: 2, accuracy: High
+        $x_1_2 = {07 8e 69 0c 20 10 27 00 00 28 ?? 00 00 0a 7e ?? 00 00 0a 08 20 00 30 00 00 7e ?? 00 00 04 28 ?? 00 00 06 0d 20 10 27 00 00 28}  //weight: 1, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
 rule Trojan_MSIL_DonutLoader_AD_2147977704_0
 {
     meta:
@@ -275,6 +297,50 @@ rule Trojan_MSIL_DonutLoader_AD_2147977704_0
     strings:
         $x_2_1 = {0a 16 0c 2b 13 06 08 06 08 91 18 59 20 ff 00 00 00 5f d2 9c 08 17 58 0c 08 06 8e 69 32 e7}  //weight: 2, accuracy: High
         $x_1_2 = {20 00 10 00 00 20 00 30 00 00 1f 40 28 ?? 00 00 06 0b 06 16 07 06 8e 69 28 ?? 00 00 0a 7e ?? 00 00 0a 16 07 7e ?? 00 00 0a 16 7e}  //weight: 1, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_MSIL_DonutLoader_AK_2147979602_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:MSIL/DonutLoader.AK!MTB"
+        threat_id = "2147979602"
+        type = "Trojan"
+        platform = "MSIL: .NET intermediate language scripts"
+        family = "DonutLoader"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "3"
+        strings_accuracy = "Low"
+    strings:
+        $x_1_1 = {16 0d 2b 1b 08 09 7e ?? 00 00 04 8e 69 58 02 09 91 07 09 07 8e 69 5d 91 61 d2 9c 09 17 58 0d 09 02 8e 69}  //weight: 1, accuracy: Low
+        $x_2_2 = {0b 02 8e 69 7e ?? 00 00 04 8e 69 58 8d ?? 00 00 01 0c 06 16 08 16 7e ?? 00 00 04 8e 69 28 3b 00 00 0a 16 0d 2b 1b 08 09 7e 04 00 00 04 8e 69}  //weight: 2, accuracy: Low
+    condition:
+        (filesize < 20MB) and
+        (all of ($x*))
+}
+
+rule Trojan_MSIL_DonutLoader_AO_2147979622_0
+{
+    meta:
+        author = "defender2yara"
+        detection_name = "Trojan:MSIL/DonutLoader.AO!MTB"
+        threat_id = "2147979622"
+        type = "Trojan"
+        platform = "MSIL: .NET intermediate language scripts"
+        family = "DonutLoader"
+        severity = "Critical"
+        info = "MTB: Microsoft Threat Behavior"
+        signature_type = "SIGNATURE_TYPE_PEHSTR_EXT"
+        threshold = "3"
+        strings_accuracy = "Low"
+    strings:
+        $x_1_1 = {0a 1f 3c 0b 16 13 04 2b 11 06 11 04 06 11 04 91 07 61 d2 9c 11 04 17 58 13 04 11 04 06 8e 69}  //weight: 1, accuracy: High
+        $x_2_2 = {06 8e 69 0c 7e ?? 00 00 0a 20 00 10 00 00 20 00 30 00 00 1f 40 28 ?? 00 00 06 0d 06 16 09 08 28 ?? 00 00 0a 7e ?? 00 00 0a 16 09 7e ?? 00 00 0a 16 7e ?? 00 00 0a 28}  //weight: 2, accuracy: Low
     condition:
         (filesize < 20MB) and
         (all of ($x*))
