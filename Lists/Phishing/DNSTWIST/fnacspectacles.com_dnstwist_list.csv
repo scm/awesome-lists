@@ -1,5 +1,5 @@
 fuzzer,domain,dns_a,dns_mx,dns_ns
-*original,fnacspectacles.com,64.68.202.11,mx-caprica.zoneedit.com,dns1.cscdns.net
+*original,fnacspectacles.com,64.68.202.11,,dns1.cscdns.net
 addition,fnacspectacles0.com,,,
 addition,fnacspectacles1.com,,,
 addition,fnacspectacles2.com,,,
@@ -8473,10 +8473,10 @@ subdomain,fnacs.pectacles.com,,,
 subdomain,fnacsp.ectacles.com,,,
 subdomain,fnacspe.ctacles.com,,,
 subdomain,fnacspec.tacles.com,,,
-subdomain,fnacspect.acles.com,64.190.63.222,localhost,ns1.sedoparking.com
+subdomain,fnacspect.acles.com,64.190.63.111,localhost,ns1.sedoparking.com
 subdomain,fnacspecta.cles.com,,,
 subdomain,fnacspectac.les.com,,,
-subdomain,fnacspectacl.es.com,3.171.61.19,,
+subdomain,fnacspectacl.es.com,13.249.141.14,,
 transposition,fancspectacles.com,,,
 transposition,fnacpsectacles.com,,,
 transposition,fnacsepctacles.com,,,
